@@ -2,13 +2,13 @@
   "pipeline_id": "dQw4w9WgXcQ-20260603T061508",
   "node_id": "tg-notify",
   "run_id": "direct-wiki-build-1780467392",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "wiki-build"
   ],
   "started_at": "2026-06-03T06:18:41Z",
-  "finished_at": "",
+  "finished_at": "2026-06-03T06:18:45Z",
   "inputs": {
     "index": "wiki-build.outputs.index"
   },
@@ -20,5 +20,5 @@
     "note": "final summary stage"
   },
   "error": "",
-  "updated_at": "2026-06-03T06:18:42Z"
+  "updated_at": "2026-06-03T06:18:45Z"
 }
