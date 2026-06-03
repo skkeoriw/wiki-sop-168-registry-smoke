@@ -47,5 +47,42 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780455084",
+    "start_time": "2026-06-03T02:51:25Z",
+    "end_time": "2026-06-03T02:53:32Z",
+    "duration_s": 127,
+    "llm_calls": 20,
+    "pages_created_total": 18,
+    "pages_new_this_run": 18,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/全面奉献.md",
+      "wiki/concepts/关系粘合度.md",
+      "wiki/concepts/差异化情感价值.md",
+      "wiki/concepts/弥合沟通裂痕.md",
+      "wiki/concepts/情感互动规则.md",
+      "wiki/concepts/情感博弈.md",
+      "wiki/concepts/情感框架.md",
+      "wiki/concepts/打破沉默的契机.md",
+      "wiki/concepts/排他性奉献.md",
+      "wiki/concepts/沟通的紧迫性.md",
+      "wiki/concepts/潜在默契.md",
+      "wiki/concepts/终身化意图.md",
+      "wiki/concepts/量化实现.md",
+      "wiki/concepts/长期认知.md",
+      "wiki/concepts/长远意图.md",
+      "wiki/concepts/防御性负面承诺.md",
+      "wiki/entities/never-gonna-give-you-up.md",
+      "wiki/sources/never-gonna-give-you-up-核心意图与情感承诺深度分析简报.md"
+    ],
+    "sources": 1,
+    "entities": 1,
+    "concepts": 16,
+    "comparisons": 0,
+    "prompt_tokens": 17943,
+    "completion_tokens": 23629,
+    "status": "success"
   }
 }
