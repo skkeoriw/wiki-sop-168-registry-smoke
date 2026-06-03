@@ -47,5 +47,39 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780467392",
+    "start_time": "2026-06-03T06:16:32Z",
+    "end_time": "2026-06-03T06:18:38Z",
+    "duration_s": 125,
+    "llm_calls": 17,
+    "pages_created_total": 33,
+    "pages_new_this_run": 15,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/主动打破沉默.md",
+      "wiki/concepts/共享契约.md",
+      "wiki/concepts/可靠性.md",
+      "wiki/concepts/心理契约.md",
+      "wiki/concepts/忠诚度.md",
+      "wiki/concepts/情感表达.md",
+      "wiki/concepts/情感透明度.md",
+      "wiki/concepts/排他性关系.md",
+      "wiki/concepts/时间维度.md",
+      "wiki/concepts/沟通欲望.md",
+      "wiki/concepts/沟通障碍.md",
+      "wiki/concepts/行为准则.md",
+      "wiki/concepts/行为逻辑.md",
+      "wiki/entities/rick-astley.md",
+      "wiki/sources/关系承诺与忠诚度分析简报-基于Never-Gonna-Give-You-Up文本的研究.md"
+    ],
+    "sources": 2,
+    "entities": 2,
+    "concepts": 29,
+    "comparisons": 0,
+    "prompt_tokens": 14925,
+    "completion_tokens": 19831,
+    "status": "success"
   }
 }
