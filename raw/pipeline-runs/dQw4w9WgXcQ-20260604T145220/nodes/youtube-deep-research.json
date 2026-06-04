@@ -2,13 +2,13 @@
   "pipeline_id": "dQw4w9WgXcQ-20260604T145220",
   "node_id": "youtube-deep-research",
   "run_id": "direct-youtube-deep-research-1780584749",
-  "status": "running",
+  "status": "done",
   "mode": "sidecar",
   "needs": [
     "youtube-fetch"
   ],
   "started_at": "2026-06-04T14:52:29Z",
-  "finished_at": "",
+  "finished_at": "2026-06-04T14:54:05Z",
   "inputs": {
     "source_url": "youtube-fetch.outputs.source_url"
   },
@@ -41,10 +41,50 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "analysis_file": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T145220/analysis.md"
+    ],
+    "transcript_file": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T145220/transcript.txt"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "5019a0b6252e9748",
+      "producer": "youtube-deep-research",
+      "output": "analysis_file",
+      "type": "research.analysis",
+      "format": "markdown",
+      "path": "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T145220/analysis.md",
+      "title": "analysis.md",
+      "size": 11548,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    },
+    {
+      "id": "a313edaf739e09bf",
+      "producer": "youtube-deep-research",
+      "output": "transcript_file",
+      "type": "research.transcript",
+      "format": "text",
+      "path": "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T145220/transcript.txt",
+      "title": "transcript.txt",
+      "size": 1843,
+      "mime_type": "text/plain",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
@@ -52,5 +92,5 @@
     "started_by": "youtube-fetch"
   },
   "error": "",
-  "updated_at": "2026-06-04T14:52:30Z"
+  "updated_at": "2026-06-04T14:54:05Z"
 }

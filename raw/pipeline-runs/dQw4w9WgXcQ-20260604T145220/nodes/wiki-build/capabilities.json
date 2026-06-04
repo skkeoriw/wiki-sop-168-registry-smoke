@@ -1,0 +1,10 @@
+{
+  "telegram": {
+    "enabled": false,
+    "required": false
+  },
+  "git": {
+    "enabled": true,
+    "required": false
+  }
+}

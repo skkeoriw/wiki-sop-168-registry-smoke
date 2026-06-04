@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "5019a0b6252e9748",
+    "producer": "youtube-deep-research",
+    "output": "analysis_file",
+    "type": "research.analysis",
+    "format": "markdown",
+    "path": "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T145220/analysis.md",
+    "title": "analysis.md",
+    "size": 11548,
+    "mime_type": "text/markdown",
+    "tags": [
+      "wiki-source"
+    ],
+    "metadata": {},
+    "resolution": "recorded"
+  },
+  {
+    "id": "a313edaf739e09bf",
+    "producer": "youtube-deep-research",
+    "output": "transcript_file",
+    "type": "research.transcript",
+    "format": "text",
+    "path": "raw/youtube-deep-research/dQw4w9WgXcQ-20260604T145220/transcript.txt",
+    "title": "transcript.txt",
+    "size": 1843,
+    "mime_type": "text/plain",
+    "tags": [
+      "wiki-source"
+    ],
+    "metadata": {},
+    "resolution": "recorded"
+  }
+]

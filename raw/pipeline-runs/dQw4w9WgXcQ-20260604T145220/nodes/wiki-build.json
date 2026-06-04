@@ -1,0 +1,61 @@
+{
+  "pipeline_id": "dQw4w9WgXcQ-20260604T145220",
+  "node_id": "wiki-build",
+  "run_id": "direct-wiki-build-1780584811",
+  "status": "running",
+  "mode": "blocking",
+  "needs": [
+    "notebooklm-research"
+  ],
+  "started_at": "2026-06-04T14:53:31Z",
+  "finished_at": "",
+  "inputs": {
+    "reports": "notebooklm-research.outputs.reports"
+  },
+  "outputs": {
+    "index": "index.md",
+    "pages": "wiki/**"
+  },
+  "optional_inputs": {
+    "deep_research": "youtube-deep-research.outputs.analysis_file"
+  },
+  "executor": {
+    "type": "skill",
+    "skill": "sop-wiki-build",
+    "webhook_route": "sop-wiki-build"
+  },
+  "declared_inputs": {
+    "reports": {
+      "from": "notebooklm-research.outputs.reports",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "reports": [
+      "raw/notebooklm-analysis/关系承诺与持久忠诚深度简报-对-Never-Gonna-Give-You-Up.md"
+    ],
+    "deep_research": []
+  },
+  "declared_outputs": {
+    "index": {
+      "path": "index.md",
+      "type": "file"
+    },
+    "pages": {
+      "path": "wiki/**",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {},
+  "artifacts": [],
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "notebooklm-research"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T14:53:31Z"
+}
