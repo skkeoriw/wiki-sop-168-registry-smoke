@@ -1,0 +1,88 @@
+{
+  "pipeline_id": "rBUfD_wvbhw-20260604T083329",
+  "node_id": "notebooklm-research",
+  "run_id": "direct-notebooklm-research-1780562017",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-04T08:33:37Z",
+  "finished_at": "2026-06-04T08:34:39Z",
+  "inputs": {
+    "source_url": "youtube-fetch.outputs.source_url",
+    "metadata_file": "youtube-fetch.outputs.metadata_file"
+  },
+  "outputs": {
+    "reports": "raw/notebooklm-analysis/*.md",
+    "mindmaps": "raw/notebooklm-mindmaps/*.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "skill",
+    "skill": "sop-notebooklm-research",
+    "webhook_route": "sop-notebooklm-research"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "youtube-fetch.outputs.source_url",
+      "required": true
+    },
+    "metadata_file": {
+      "from": "youtube-fetch.outputs.metadata_file",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s",
+    "metadata_file": [
+      "raw/youtube-metadata/rBUfD_wvbhw.json"
+    ]
+  },
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md"
+    ],
+    "mindmaps": []
+  },
+  "artifacts": [
+    {
+      "id": "d9154377af59fbbb",
+      "producer": "notebooklm-research",
+      "output": "reports",
+      "type": "research.report",
+      "format": "markdown",
+      "path": "raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md",
+      "title": "Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md",
+      "size": 5707,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
+  "validation": {
+    "status": "warning",
+    "missing_outputs": [
+      "mindmaps"
+    ],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "youtube-fetch"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T08:34:39Z"
+}

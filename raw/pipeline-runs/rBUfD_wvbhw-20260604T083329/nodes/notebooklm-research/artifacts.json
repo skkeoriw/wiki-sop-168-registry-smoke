@@ -14,19 +14,5 @@
     ],
     "metadata": {},
     "resolution": "context"
-  },
-  {
-    "id": "78dc577656e2fd8d",
-    "producer": "youtube-fetch",
-    "output": "metadata_file",
-    "type": "file",
-    "format": "json",
-    "path": "raw/youtube-metadata/rBUfD_wvbhw.json",
-    "title": "rBUfD_wvbhw.json",
-    "size": 618,
-    "mime_type": "application/json",
-    "tags": [],
-    "metadata": {},
-    "resolution": "context"
   }
 ]

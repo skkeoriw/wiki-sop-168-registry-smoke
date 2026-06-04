@@ -1,0 +1,27 @@
+{
+  "pipeline_id": "rBUfD_wvbhw-20260604T083329",
+  "node_id": "youtube-deep-research",
+  "run_id": "direct-youtube-deep-research-1780562017",
+  "status": "running",
+  "mode": "sidecar",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-04T08:33:37Z",
+  "finished_at": "",
+  "executor": {
+    "type": "skill",
+    "skill": "sop-youtube-deep-research",
+    "webhook_route": "sop-youtube-deep-research"
+  },
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "youtube-fetch"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T08:33:38Z"
+}

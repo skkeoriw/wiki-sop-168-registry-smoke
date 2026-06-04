@@ -1,0 +1,56 @@
+{
+  "pipeline_id": "rBUfD_wvbhw-20260604T083329",
+  "node_id": "youtube-deep-research",
+  "run_id": "direct-youtube-deep-research-1780562017",
+  "status": "running",
+  "mode": "sidecar",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-04T08:33:37Z",
+  "finished_at": "",
+  "inputs": {
+    "source_url": "youtube-fetch.outputs.source_url"
+  },
+  "outputs": {
+    "analysis_file": "raw/youtube-deep-research/{pipeline_id}/analysis.md",
+    "transcript_file": "raw/youtube-deep-research/{pipeline_id}/transcript.txt"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "skill",
+    "skill": "sop-youtube-deep-research",
+    "webhook_route": "sop-youtube-deep-research"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "youtube-fetch.outputs.source_url",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s"
+  },
+  "declared_outputs": {
+    "analysis_file": {
+      "path": "raw/youtube-deep-research/{pipeline_id}/analysis.md",
+      "type": "file"
+    },
+    "transcript_file": {
+      "path": "raw/youtube-deep-research/{pipeline_id}/transcript.txt",
+      "type": "file"
+    }
+  },
+  "actual_outputs": {},
+  "artifacts": [],
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "youtube-fetch"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T08:33:38Z"
+}

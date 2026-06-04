@@ -1,0 +1,25 @@
+{
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md"
+    ],
+    "mindmaps": []
+  },
+  "validation": {
+    "status": "warning",
+    "missing_outputs": [
+      "mindmaps"
+    ],
+    "unexpected_outputs": []
+  }
+}
