@@ -13,34 +13,39 @@
     "meta_file": "raw/youtube-metadata/96jN2OCOfLs.json"
   },
   "stage_b": {
-    "run_id": "direct-notebooklm-research-1780541895",
-    "start_time": "2026-06-04T02:58:15Z",
-    "end_time": "2026-06-04T02:59:28Z",
-    "duration_s": 73,
-    "status": "success",
-    "videos_processed": 1,
-    "reports_generated": 1,
-    "mindmaps_generated": 0,
-    "processed_urls": [
-      "https://www.youtube.com/watch?v=96jN2OCOfLs&t=90s"
-    ],
-    "output_files": [
-      "raw/notebooklm-analysis/Andrej-Karpathy-从氛围编程到代理工程的技术简报.md"
-    ],
-    "generated_files": [
-      {
-        "type": "report",
-        "path": "/tmp/notebooklm_processor/1780541956_report-1780541951.md"
-      }
-    ],
     "source_metadata": {
-      "video_id": "96jN2OCOfLs",
       "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan",
-      "author": "Sequoia Capital",
-      "published_at": "2026-04-29T15:21:18Z",
       "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
-      "thumbnail": "https://i.ytimg.com/vi/96jN2OCOfLs/hqdefault.jpg",
-      "source_type": "youtube"
-    }
+      "author": "Sequoia Capital"
+    },
+    "output_files": [
+      "raw/notebooklm-analysis/Andrej-Karpathy-From-Vibe-Coding-to-Agentic-Engineering-w-Stephanie-Zhan-youtube-deep-research.md"
+    ]
+  },
+  "stage_deep_research": {
+    "run_id": "direct-youtube-deep-research-1780541895",
+    "job_id": "ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac",
+    "status": "completed",
+    "start_time": "",
+    "end_time": "2026-06-04T03:02:49Z",
+    "output_files": [
+      "raw/youtube-deep-research/96jN2OCOfLs-20260604T025807/analysis.md",
+      "raw/youtube-deep-research/96jN2OCOfLs-20260604T025807/status.json",
+      "raw/notebooklm-analysis/Andrej-Karpathy-From-Vibe-Coding-to-Agentic-Engineering-w-Stephanie-Zhan-youtube-deep-research.md"
+    ],
+    "worker_files": {
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/ba0fa7bb-c4a9-4ec4-ad12-a96890d4cbac/transcript?format=txt&translated=1"
+    },
+    "chunks_total": 6,
+    "chunks_done": 6
   }
 }

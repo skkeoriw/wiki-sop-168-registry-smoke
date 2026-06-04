@@ -1,0 +1,1511 @@
+1
+00:00:01,620 --> 00:00:06,560
+ we're so excited for our very first special guest he has helped build modern
+
+2
+00:00:06,560 --> 00:00:14,700
+ AI then explain modern AI and then occasionally rename modern AI he
+
+3
+00:00:14,700 --> 00:00:18,500
+ actually helped co-found open AI right inside of this office was the one who
+
+4
+00:00:18,500 --> 00:00:23,660
+ actually got autopilot working at Tesla back in the day and he has a rare gift
+
+5
+00:00:23,660 --> 00:00:28,560
+ of making the most complex technical shifts feel both accessible and
+
+6
+00:00:28,560 --> 00:00:33,400
+ inevitable you all know him for having coined the term vibe coding last year
+
+7
+00:00:33,400 --> 00:00:38,500
+ but just in the last few months he said something even more startling that he's
+
+8
+00:00:38,500 --> 00:00:42,860
+ never felt more behind as a programmer that's what we're starting today thank
+
+9
+00:00:42,860 --> 00:00:47,280
+ you Andre for joining us yeah hello excited to be hearing to kick us off okay
+
+10
+00:00:47,280 --> 00:00:51,260
+ so just a couple months ago you said that you've never felt more behind as a
+
+11
+00:00:51,260 --> 00:00:55,820
+ programmer that's startling to hear from you of all people can you help us unpack
+
+12
+00:00:55,820 --> 00:01:01,280
+ that was that feeling exhilarating or unsettling oh yeah mixture of both for
+
+13
+00:01:01,280 --> 00:01:07,680
+ sure well first of all I guess like as many of you I've been using agentic tools
+
+14
+00:01:07,680 --> 00:01:11,220
+ like cloud code adjacent things for a while maybe over the last year as it came
+
+15
+00:01:11,220 --> 00:01:14,620
+ out and it was very good at you know chunks of code and sometimes it would
+
+16
+00:01:14,620 --> 00:01:17,860
+ mess up and you have to edit them and it was kind of helpful and then I would say
+
+17
+00:01:17,860 --> 00:01:22,500
+ December was this clear point where for me I was on a break so I had a bit more
+
+18
+00:01:22,500 --> 00:01:26,680
+ time I think many other people were similar and I just started to notice
+
+19
+00:01:26,680 --> 00:01:29,920
+ that with the latest models the chunks just came out fine and then I kept
+
+20
+00:01:29,920 --> 00:01:32,720
+ asking for more and just came out fine and then I can't remember the last time
+
+21
+00:01:32,720 --> 00:01:36,700
+ I corrected it and then I was I just you know trusted the system more and more
+
+22
+00:01:36,700 --> 00:01:42,560
+ and then I was vibe coding and so it was kind of a I do think that was a very
+
+23
+00:01:42,560 --> 00:01:45,880
+ stark transition I think that a lot of people actually I trust you I tried to
+
+24
+00:01:45,880 --> 00:01:52,000
+ stress this on Twitter and or X because I think a lot of people experienced AI last year as
+
+25
+00:01:52,000 --> 00:01:56,280
+ chat GPT adjacent thing but you really had to look again and you had to look as
+
+26
+00:01:56,280 --> 00:02:00,500
+ of December because things have changed fundamentally and especially on this like
+
+27
+00:02:00,500 --> 00:02:07,100
+ agentic coherent workflow that really started to actually work and so I would
+
+28
+00:02:07,100 --> 00:02:13,220
+ say that yeah it was just that realization that really had me go down their
+
+29
+00:02:13,220 --> 00:02:17,340
+ whole rabbit hole of just you know infinity side project my side projects
+
+30
+00:02:17,340 --> 00:02:21,700
+ folder is like extremely full with lots of random things and just by coding all the
+
+31
+00:02:21,700 --> 00:02:25,860
+ time so yeah that kind of happened in December I would say and I was looking
+
+32
+00:02:25,860 --> 00:02:30,200
+ at the repercussions of that sense you've talked a lot about this idea of
+
+33
+00:02:30,200 --> 00:02:35,340
+ LLMs as a new computer that it isn't just better software it's a whole new
+
+34
+00:02:35,340 --> 00:02:41,240
+ computing paradigm and software 1.0 was explicit rules software 2.0 was learned
+
+35
+00:02:41,240 --> 00:02:47,260
+ weights software 3.0 is this if that's actually true what does a team build
+
+36
+00:02:47,260 --> 00:02:53,260
+ differently the day they actually believe this right so yeah exactly so software
+
+37
+00:02:53,260 --> 00:02:57,840
+ 1.0 I'm writing code software 2.0 I'm actually programming by creating data sets
+
+38
+00:02:57,840 --> 00:03:01,460
+ and training training neural networks so the programming is kind of like arranging
+
+39
+00:03:01,460 --> 00:03:04,560
+ data sets and maybe some objectives and neural network architectures and then
+
+40
+00:03:04,560 --> 00:03:09,040
+ what happened is that basically if you train one of these GPT models or LLMs on a
+
+41
+00:03:09,040 --> 00:03:13,740
+ sufficiently large set of tasks implicit basically implicitly because by
+
+42
+00:03:13,740 --> 00:03:16,180
+ training on the internet you have to multitask all the things that are in the
+
+43
+00:03:16,180 --> 00:03:19,840
+ data set these actually become kind of like a programmable computer in a certain
+
+44
+00:03:19,840 --> 00:03:24,320
+ sense so software 3.0 is kind of about you know your programming now turns to
+
+45
+00:03:24,320 --> 00:03:28,840
+ prompting and what's in the context window is your lever over the interpreter
+
+46
+00:03:28,840 --> 00:03:32,680
+ that is the LLM that is kind of like interpreting your context and performing
+
+47
+00:03:32,680 --> 00:03:38,420
+ computation in the digital information space so I guess yeah that's kind of the
+
+48
+00:03:38,420 --> 00:03:42,320
+ transition and I think there's a few examples of that really drove it home for me and
+
+49
+00:03:42,320 --> 00:03:46,960
+ maybe that might be instructive also for example when you when openclaw came out
+
+50
+00:03:47,800 --> 00:03:50,840
+ when you want to install openclaw you would expect that normally this is a
+
+51
+00:03:50,840 --> 00:03:54,980
+ bash script like a shell script so run the shell script to run to install openclaw
+
+52
+00:03:55,940 --> 00:03:59,380
+ but the thing is that in order to target lots of different platforms and lots of
+
+53
+00:03:59,380 --> 00:04:02,520
+ different types of computers you might run an openclaw these shell scripts
+
+54
+00:04:02,520 --> 00:04:05,620
+ usually ballooned up and become extremely complex but the thing is you're still
+
+55
+00:04:05,620 --> 00:04:09,260
+ stuck in a software 1.0 universe of wanting to write the code and actually the
+
+56
+00:04:09,260 --> 00:04:13,820
+ openclaw installation is a is a copy paste of a bunch of text that you're
+
+57
+00:04:13,820 --> 00:04:17,360
+ supposed to give to your agent so basically it's it's a little skill of
+
+58
+00:04:17,920 --> 00:04:20,660
+ you know copy paste this and give it to your agent and it will install openclaw
+
+59
+00:04:20,660 --> 00:04:23,580
+ and the reason this is a lot more powerful is you're working now in the
+
+60
+00:04:23,580 --> 00:04:27,780
+ software 3.0 paradigm where you don't have to precisely spell out you know all
+
+61
+00:04:27,780 --> 00:04:31,000
+ the individual details of that setup the agent has its own intelligence that it
+
+62
+00:04:31,000 --> 00:04:34,780
+ packages up and then it kind of follows the instructions and it looks at your
+
+63
+00:04:34,780 --> 00:04:37,820
+ environment your computer and it kind of like performs intelligent actions to
+
+64
+00:04:37,820 --> 00:04:41,160
+ make things work and debug things in the loop and it's just like so much more
+
+65
+00:04:41,160 --> 00:04:45,200
+ powerful right so I think that's a very different kind of like way of thinking
+
+66
+00:04:45,200 --> 00:04:48,100
+ about it it's just like what is the piece of text to copy paste to your agent
+
+67
+00:04:48,100 --> 00:04:52,380
+ that's the programming paradigm now I think one more maybe example that comes to
+
+68
+00:04:52,380 --> 00:04:57,140
+ mind that is even more extreme than that is when I was building menu gen so menu gen
+
+69
+00:04:57,140 --> 00:05:02,520
+ is this idea where you you come to a restaurant they give you a menu there's no
+
+70
+00:05:02,520 --> 00:05:04,300
+ pictures usually so I don't know what any of these
+
+71
+00:05:00,000 --> 00:05:05,280
+ things are. Usually, like 30% of the things, I have no idea what they are, 50%. So I wanted
+
+72
+00:05:05,280 --> 00:05:09,600
+ to take a photo of the restaurant menu and to get pictures of what those things might
+
+73
+00:05:09,600 --> 00:05:14,460
+ look like in a generic sense. And so I built, I bytecoded this app that basically lets you
+
+74
+00:05:14,460 --> 00:05:20,460
+ upload a photo, and it does all this stuff, and it runs on Vercel, and it basically re-renders
+
+75
+00:05:20,460 --> 00:05:24,380
+ the menu, and it gives you all the items, and it gives you a picture that it uses an
+
+76
+00:05:24,380 --> 00:05:31,220
+ image generator for, to basically OCR all the different titles, use the image generators
+
+77
+00:05:31,220 --> 00:05:35,540
+ to get pictures of them, and then shows it to you. And then I saw the software 3.0 version
+
+78
+00:05:35,540 --> 00:05:40,780
+ of this, which blew my mind, which is literally just take your photo, give it to Gemini, and
+
+79
+00:05:40,780 --> 00:05:47,680
+ say use Nano Banana to overlay the things onto the menu. And Nano Banana basically returned
+
+80
+00:05:47,680 --> 00:05:51,600
+ an image that is exactly the picture of the menu that I took, but it actually put into
+
+81
+00:05:51,600 --> 00:05:56,620
+ the pixels, it rendered the different things in the menu. And this blew my mind, because
+
+82
+00:05:57,680 --> 00:06:02,220
+ actually all of my menu gen is spurious, it's working in the old paradigm, that app shouldn't
+
+83
+00:06:02,220 --> 00:06:09,420
+ exist. And yeah, the software 3.0 paradigm is a lot more kind of raw, it just, your neural
+
+84
+00:06:09,420 --> 00:06:13,740
+ network is doing more and more of the work, and your prompt or context is just the image,
+
+85
+00:06:13,900 --> 00:06:20,020
+ and the output is an image, and there's no need to have any of the app in between. So I think
+
+86
+00:06:20,020 --> 00:06:24,460
+ that people have to kind of like reframe, you know, not to work in the existing paradigm
+
+87
+00:06:24,460 --> 00:06:29,420
+ of what things existed, and just think about it as a speed up of what exists. It's actually
+
+88
+00:06:29,420 --> 00:06:33,260
+ like new things are available now. And going back to your programming question, it's not
+
+89
+00:06:33,260 --> 00:06:37,220
+ even, I think that's also an example of working in the old mindset, because it's not just about
+
+90
+00:06:37,220 --> 00:06:41,000
+ programming and programming becoming faster. This is more general information processing
+
+91
+00:06:41,000 --> 00:06:46,460
+ that is automatable now. So it's not just even about code. So previous code worked over
+
+92
+00:06:46,460 --> 00:06:50,780
+ kind of like structured data, right? And you write code over structured data. But like,
+
+93
+00:06:50,860 --> 00:06:56,240
+ for example, with my LLM knowledge bases project, basically, you get LLMs to create wikis for
+
+94
+00:06:56,240 --> 00:06:59,740
+ your organization or for you in person, etc. This is not even a program. This is not something
+
+95
+00:06:59,740 --> 00:07:04,440
+ that could exist before, because there was no code that would create a knowledge base based
+
+96
+00:07:04,440 --> 00:07:09,720
+ on a bunch of facts. But now you can just take these documents and basically recompile them
+
+97
+00:07:09,720 --> 00:07:14,580
+ in a different way and reorder them and create something that is new and interesting as a
+
+98
+00:07:14,580 --> 00:07:20,000
+ reframing of the data. And so these are new things that weren't possible. And so I think
+
+99
+00:07:20,000 --> 00:07:25,320
+ this is something that I keep trying to get back to as to not only what can we do that existed
+
+100
+00:07:25,320 --> 00:07:30,460
+ that is faster now, but I think there's new opportunities of just things that couldn't be possible
+
+101
+00:07:30,460 --> 00:07:32,040
+ before. And I almost think that that's more exciting.
+
+102
+00:07:32,040 --> 00:07:38,420
+ I love the menu gen progression and dichotomy that you laid out. And I think even I'm sure
+
+103
+00:07:38,420 --> 00:07:43,740
+ many folks here followed your own progression of programming from last October to early January,
+
+104
+00:07:44,040 --> 00:07:51,340
+ February this year. If you extrapolate that further, what is the 2026 equivalent for building websites
+
+105
+00:07:51,340 --> 00:07:58,580
+ in the 90s, building mobile apps in the 2010s, building SaaS in the last cloud era? What will
+
+106
+00:07:58,580 --> 00:08:02,560
+ look completely obvious in hindsight that is still mostly unbuilt today?
+
+107
+00:08:05,000 --> 00:08:08,900
+ Well, going with the example of menu gen, I guess, so a lot of this code shouldn't exist
+
+108
+00:08:08,900 --> 00:08:13,600
+ and it's just neural network doing most of the work. I do think that the extrapolation looks
+
+109
+00:08:13,600 --> 00:08:19,600
+ very weird because you could basically imagine, I don't think, yeah, so you could imagine completely
+
+110
+00:08:19,600 --> 00:08:25,540
+ neural computers in a certain sense. You feed raw videos, like imagine a device, he takes raw videos
+
+111
+00:08:25,540 --> 00:08:30,940
+ or audio into basically what's a neural net and uses diffusion to render a UI that is kind
+
+112
+00:08:30,940 --> 00:08:37,380
+ of like, you know, unique for that moment in a certain sense. And I kind of feel like in the early
+
+113
+00:08:37,380 --> 00:08:41,000
+ days of computing, actually, people are a little bit confused as to whether computers would look
+
+114
+00:08:41,000 --> 00:08:45,240
+ like calculators or computers would look like neural nets. And in 50s and 60s, it was not really
+
+115
+00:08:45,240 --> 00:08:49,180
+ obvious which way it would go. And of course, we went down the calculator path and ended up building
+
+116
+00:08:49,180 --> 00:08:53,360
+ classical computing. And then neural nets are currently running virtualized on existing computers.
+
+117
+00:08:53,360 --> 00:08:57,580
+ But you could imagine, I think, that a lot of this will flip and that the neural net becomes
+
+118
+00:08:57,580 --> 00:09:01,940
+ kind of like the host process. And the CPU has become kind of like the co-processor.
+
+119
+00:09:02,360 --> 00:09:06,340
+ So we saw the diagram of, you know, intelligence compute is going to, of neural networks is going
+
+120
+00:09:06,340 --> 00:09:11,500
+ to take over and become the dominant spend of flops. So you could imagine something really
+
+121
+00:09:11,500 --> 00:09:15,260
+ weird and foreign when, where neural nets are doing most of the heavy lifting, they're using
+
+122
+00:09:15,260 --> 00:09:20,480
+ tool use as just like, you know, historical appendage for some kinds of like deterministic tasks.
+
+123
+00:09:20,480 --> 00:09:24,780
+ But what's really running the show is these neural nets that are networked in a certain
+
+124
+00:09:24,780 --> 00:09:29,660
+ way. So you could imagine something extremely foreign as the extrapolation. But I think we're
+
+125
+00:09:29,660 --> 00:09:34,600
+ going to probably get there sort of piece by piece. And I don't, yeah, that progression
+
+126
+00:09:34,600 --> 00:09:35,560
+ is TBD, I would say.
+
+127
+00:09:36,560 --> 00:09:42,120
+ I'd love to talk a little bit about this concept of verifiability, the fact that AI will automate
+
+128
+00:09:42,120 --> 00:09:48,300
+ faster and more easily domains where the output can be verified. If that framework is right,
+
+129
+00:09:48,500 --> 00:09:53,560
+ what work is about to move much faster than people realize? And what professions do we have
+
+130
+00:09:53,560 --> 00:09:57,300
+ that people actually think are safe, but they're actually highly verifiable?
+
+131
+00:10:00,000 --> 00:10:16,480
+ Yeah, so I spent some time writing about verifiability and basically like traditional computers can easily automate what you can specify in code and kind of this latest round of LLMs can easily automate what you can verify in a certain sense.
+
+132
+00:10:16,780 --> 00:10:23,860
+ Because the way this works is that when frontier labs are training these LLMs, these are giant reinforcement learning environments, so they are given verification rewards.
+
+133
+00:10:23,860 --> 00:10:35,800
+ And then because of the way that these models are trained, they end up basically progressing and creating these like jagged entities that really peak in capability in kind of like verifiable domains like math and code and adjacent.
+
+134
+00:10:36,220 --> 00:10:42,800
+ And kind of like stagnate and are a little bit, you know, rough around the edges when things are not kind of like in that space.
+
+135
+00:10:43,180 --> 00:10:47,380
+ So I think the reason I wrote about verifiability is I'm trying to understand why these things are so jagged.
+
+136
+00:10:48,140 --> 00:10:56,800
+ And some of it has to do with how the labs train the models, but I think some of it also has to do with the focus of the labs and what they happen to put into the data distribution.
+
+137
+00:10:57,460 --> 00:11:03,780
+ Because some things basically are significantly more valuable in economy and end up creating more environments because the labs wanted to work in those settings.
+
+138
+00:11:03,960 --> 00:11:05,500
+ So I think code is a good example of that.
+
+139
+00:11:05,700 --> 00:11:11,600
+ There's probably lots of verifiable environments that you could think about that happen not to make it into the mix because they're just not that useful to have the capability around.
+
+140
+00:11:12,820 --> 00:11:23,080
+ But I think to me the big, I guess like the big mystery is the favorite example for a while was that how many letters R are in a strawberry and the models would famously get this wrong.
+
+141
+00:11:23,240 --> 00:11:24,460
+ And it's an example of jaggedness.
+
+142
+00:11:24,760 --> 00:11:26,380
+ The models now patch this, I think.
+
+143
+00:11:26,520 --> 00:11:31,240
+ But the new one is I want to go to a car wash to wash my car and it's 50 meters away.
+
+144
+00:11:31,700 --> 00:11:33,160
+ Should I drive or should I walk?
+
+145
+00:11:33,820 --> 00:11:37,600
+ And state-of-the-art models today will tell you to walk because it's so close.
+
+146
+00:11:37,600 --> 00:11:51,260
+ How is it possible that state-of-the-art Opus 4.7 will simultaneously refactor 100,000 line code base or find zero-day vulnerabilities and yet tells me to walk to this car wash?
+
+147
+00:11:51,460 --> 00:11:52,500
+ This is insane.
+
+148
+00:11:53,200 --> 00:12:00,180
+ And to whatever extent these models remain jagged, it's an indication that number one, maybe something slightly off.
+
+149
+00:12:01,180 --> 00:12:06,260
+ Or number two, you need to actually be in the loop a little bit and you need to treat them as tools.
+
+150
+00:12:06,260 --> 00:12:09,140
+ And you do have to kind of stay in touch with what they're doing.
+
+151
+00:12:09,840 --> 00:12:16,300
+ And so I think all of my writing, long story short about verifiability, just trying to understand why these things are jagged.
+
+152
+00:12:16,440 --> 00:12:17,460
+ Is there any pattern to it?
+
+153
+00:12:17,600 --> 00:12:21,840
+ And I think it's some kind of a combination of verifiable plus labs care.
+
+154
+00:12:22,280 --> 00:12:29,680
+ Maybe one more anecdote that is instructive is from GPT 3.5 to GPT 4, people noticed that chess improved a lot.
+
+155
+00:12:29,680 --> 00:12:33,020
+ And I think a lot of people thought, oh, well, it's just a progression of the capabilities.
+
+156
+00:12:33,420 --> 00:12:41,880
+ But actually it's more that, I think this is public information, I think I saw it on the internet, a huge amount of like data of chess made it into the pre-chaining set.
+
+157
+00:12:42,660 --> 00:12:48,260
+ And just because it's in the data distribution, basically the model improved a lot more than it would just by default.
+
+158
+00:12:49,080 --> 00:12:54,400
+ So someone at OpenAI decided to add this data and now you have a capability that just peaked a lot more.
+
+159
+00:12:54,560 --> 00:13:02,860
+ And so that's why I think I'm stressing this dimension of it as we are slightly at the mercy of whatever the labs are doing, whatever they happen to put into the mix.
+
+160
+00:13:02,860 --> 00:13:06,600
+ And you have to actually explore this thing that they give you that has no manual.
+
+161
+00:13:06,940 --> 00:13:09,780
+ And it works in certain settings but maybe not in some settings.
+
+162
+00:13:10,060 --> 00:13:12,620
+ And you have to kind of explore it a little bit.
+
+163
+00:13:13,400 --> 00:13:16,420
+ And if you're in the circuits that were part of the RL, you fly.
+
+164
+00:13:16,640 --> 00:13:20,600
+ And if you're in the circuits that are out of the data distribution, you're going to struggle.
+
+165
+00:13:20,800 --> 00:13:24,140
+ And you have to kind of figure out which circuits you're in in your application.
+
+166
+00:13:24,140 --> 00:13:32,940
+ And if you're not in the circuits, then you have to really look at fine-tuning and doing some of your own work because it's not going to necessarily come out of the LL, out of the box.
+
+167
+00:13:33,980 --> 00:13:37,020
+ I'd love to come back to the concept of jagged intelligence in a little bit.
+
+168
+00:13:37,500 --> 00:13:47,600
+ If you were a founder today and thinking about building a company, you are trying to solve a problem that you think is tractable, something that is a domain that is verifiable.
+
+169
+00:13:47,600 --> 00:13:58,660
+ But you look around and you think, oh, my gosh, well, the labs have really, really started getting to escape velocity in the ones that seem most obvious, math, coding, and others.
+
+170
+00:13:58,920 --> 00:14:01,580
+ What would your advice be to the founders in the audience?
+
+171
+00:14:05,960 --> 00:14:12,420
+ So I think maybe that comes to the previous question of, I do think that verifiability, because it, let me think.
+
+172
+00:14:12,420 --> 00:14:18,420
+ So verifiability makes something tractable in the current paradigm, because you can throw a huge amount of RL at it.
+
+173
+00:14:20,220 --> 00:14:25,740
+ So maybe one way to see it is that that remains true even if the labs are not focusing on it directly.
+
+174
+00:14:25,920 --> 00:14:34,040
+ So if you are in a verifiable setting where you could create these RL environments or examples, then that actually sets you up to potentially do your own fine-tuning, and you might benefit from that.
+
+175
+00:14:34,200 --> 00:14:36,100
+ But that is fundamentally technology that just works.
+
+176
+00:14:36,180 --> 00:14:36,860
+ You can pull a lever.
+
+177
+00:14:36,860 --> 00:14:46,800
+ If you have a huge amount of diverse data sets of RL environments, et cetera, you can use your favorite fine-tuning framework and pull the lever and get something that actually works pretty well.
+
+178
+00:14:48,080 --> 00:14:50,600
+ So I don't know what the examples of this might be.
+
+179
+00:14:51,760 --> 00:14:57,880
+ But I do think there are some very valuable reinforcement learning environments that people could think of that I think are not part of the...
+
+180
+00:14:57,880 --> 00:14:59,440
+ Yeah, I don't want to give away the answer.
+
+181
+00:14:59,600 --> 00:14:59,780
+ But...
+
+182
+00:15:00,000 --> 00:15:01,440
+ There is one domain that I think is very,
+
+183
+00:15:01,780 --> 00:15:04,540
+ oh, okay, sorry, I don't mean to vague post on the stage,
+
+184
+00:15:04,660 --> 00:15:06,660
+ but there are some examples of this.
+
+185
+00:15:06,900 --> 00:15:09,380
+ On the flip side, what do you think still feels
+
+186
+00:15:09,380 --> 00:15:10,900
+ automatable, only from a distance?
+
+187
+00:15:12,400 --> 00:15:15,260
+ I do think that ultimately, almost everything
+
+188
+00:15:15,260 --> 00:15:17,500
+ can be made verifiable to some extent,
+
+189
+00:15:17,640 --> 00:15:18,980
+ some things easier than others,
+
+190
+00:15:20,260 --> 00:15:22,700
+ because even for things like writing or so on,
+
+191
+00:15:22,800 --> 00:15:24,820
+ you can imagine having a council of LLM judges
+
+192
+00:15:25,340 --> 00:15:28,320
+ and probably get something reasonable
+
+193
+00:15:29,320 --> 00:15:30,640
+ from this kind of an approach.
+
+194
+00:15:30,780 --> 00:15:32,680
+ So it's more about what's easy or hard.
+
+195
+00:15:34,160 --> 00:15:39,240
+ So I do think that ultimately, yeah, I think-
+
+196
+00:15:39,240 --> 00:15:39,940
+ Everything.
+
+197
+00:15:40,820 --> 00:15:41,980
+ Everything is automatable.
+
+198
+00:15:43,320 --> 00:15:43,960
+ Amazing, okay.
+
+199
+00:15:44,360 --> 00:15:46,320
+ So last year you coined the term vibe coding,
+
+200
+00:15:46,440 --> 00:15:48,040
+ and today we're in a world that feels
+
+201
+00:15:48,040 --> 00:15:50,120
+ a little bit more serious, more organic engineering.
+
+202
+00:15:50,480 --> 00:15:52,420
+ What do you think is the difference between the two,
+
+203
+00:15:52,520 --> 00:15:54,280
+ and what would you actually call what we're in today?
+
+204
+00:15:55,100 --> 00:15:56,960
+ Yeah, so I would say vibe coding is about
+
+205
+00:15:56,960 --> 00:15:59,140
+ raising the floor for everyone in terms of
+
+206
+00:15:59,140 --> 00:16:00,260
+ what they can do in software.
+
+207
+00:16:00,800 --> 00:16:03,280
+ So the floor rises, everyone can vibe code anything,
+
+208
+00:16:03,560 --> 00:16:04,720
+ and that's amazing, incredible.
+
+209
+00:16:05,040 --> 00:16:07,020
+ But then I would say agentic engineering is about
+
+210
+00:16:07,020 --> 00:16:09,240
+ preserving the quality bar of what existed before
+
+211
+00:16:09,240 --> 00:16:10,340
+ in professional software.
+
+212
+00:16:10,540 --> 00:16:13,260
+ So you're not allowed to introduce vulnerabilities
+
+213
+00:16:13,260 --> 00:16:14,140
+ due to vibe coding.
+
+214
+00:16:15,680 --> 00:16:17,740
+ You're still responsible for your software,
+
+215
+00:16:17,760 --> 00:16:19,680
+ just as before, but can you go faster?
+
+216
+00:16:20,020 --> 00:16:23,140
+ And spoiler is, you can, but how do you do that properly?
+
+217
+00:16:23,140 --> 00:16:26,560
+ And so to me, agentic engineering, I call it that because I do think
+
+218
+00:16:26,560 --> 00:16:27,940
+ it's kind of like an engineering discipline.
+
+219
+00:16:28,200 --> 00:16:30,500
+ You have these agents, which are these like spiky entities.
+
+220
+00:16:30,500 --> 00:16:32,140
+ They're a bit fallible, a little bit stochastic,
+
+221
+00:16:32,240 --> 00:16:33,740
+ but they are extremely powerful.
+
+222
+00:16:33,740 --> 00:16:38,080
+ And it's how do you coordinate them to go faster without sacrificing
+
+223
+00:16:38,080 --> 00:16:38,880
+ your quality bar?
+
+224
+00:16:39,340 --> 00:16:44,940
+ And doing that well and correctly is the realm of agentic engineering.
+
+225
+00:16:46,100 --> 00:16:49,780
+ So I kind of see them as different, like one is about maybe raising the floor
+
+226
+00:16:49,780 --> 00:16:51,980
+ and the other is about extrapolating.
+
+227
+00:16:52,120 --> 00:16:55,380
+ And what I'm seeing, I think, is there is a very high ceiling
+
+228
+00:16:55,380 --> 00:16:57,940
+ on agentic engineer capability.
+
+229
+00:16:58,420 --> 00:17:01,200
+ And people used to talk about the 10x engineer previously.
+
+230
+00:17:01,420 --> 00:17:03,400
+ I think that this is magnified a lot more.
+
+231
+00:17:03,960 --> 00:17:07,420
+ 10x is not the speed up you gain.
+
+232
+00:17:08,260 --> 00:17:13,460
+ And I think it does seem to me like people who are very good at this peak
+
+233
+00:17:13,460 --> 00:17:16,040
+ a lot more than 10x from my perspective right now.
+
+234
+00:17:16,180 --> 00:17:17,160
+ I really like that framing.
+
+235
+00:17:18,400 --> 00:17:22,320
+ One thing that when Sam Allman came to AI Ascent last year, one memorable thing
+
+236
+00:17:22,320 --> 00:17:25,860
+ he said was that people of different generations use ChatGPT differently.
+
+237
+00:17:26,120 --> 00:17:29,320
+ So if you're in your thirties, you use it as a Google search replacement.
+
+238
+00:17:29,440 --> 00:17:33,040
+ But if you're in your teens, ChatGPT is your gateway to the internet.
+
+239
+00:17:33,380 --> 00:17:35,760
+ What is the parallel here in coding today?
+
+240
+00:17:35,760 --> 00:17:40,900
+ If we were to watch two people code using OpenClaw, CloudCode, CodeX,
+
+241
+00:17:41,360 --> 00:17:45,740
+ one you'd consider mediocre at it and one you would consider fully AI native.
+
+242
+00:17:46,000 --> 00:17:47,420
+ How would you describe the difference?
+
+243
+00:17:49,180 --> 00:17:53,060
+ I mean, I think it's just trying to get the most out of the tools that are available,
+
+244
+00:17:53,280 --> 00:17:57,760
+ utilizing all of their features, investing into your own kind of setup.
+
+245
+00:17:58,300 --> 00:18:02,340
+ So just like previously, all the engineers are used to basically getting the most out of the tools you use.
+
+246
+00:18:02,340 --> 00:18:07,280
+ Either it's VIM or VS Code or now it's, you know, CloudCode or CodeX or so on.
+
+247
+00:18:07,520 --> 00:18:15,680
+ So just investing into your setup and utilizing a lot of the, you know, tools that are available to you.
+
+248
+00:18:16,960 --> 00:18:18,780
+ And I think it just kind of looks like that.
+
+249
+00:18:18,780 --> 00:18:29,920
+ But I do think that maybe related thought is a lot of people are maybe hiring for this, right, because they want to hire strong agentic engineers.
+
+250
+00:18:30,220 --> 00:18:41,160
+ I do think that what I'm seeing is that the, you know, most people are still not refactored their hiring process for agentic engineer capability, right?
+
+251
+00:18:41,160 --> 00:18:50,980
+ Like if you're giving out puzzles to solve and this is still the old paradigm, I would say that hiring has to look like give me a really big project and see someone implement that big project.
+
+252
+00:18:51,140 --> 00:19:01,760
+ Like let's write, say, a Twitter clone for agents and then make it really good, make it really secure, and then have some agents simulate some activity on this Twitter.
+
+253
+00:19:02,140 --> 00:19:11,060
+ And then I'm going to use 10 codex 5.4 X high to try to break your website that you deployed.
+
+254
+00:19:11,560 --> 00:19:14,860
+ And they're going to try to basically break it and they should not be able to break it.
+
+255
+00:19:15,220 --> 00:19:16,740
+ And so maybe it looks like that, right?
+
+256
+00:19:16,880 --> 00:19:26,140
+ And so, yeah, watching people in that setting and building bigger projects and utilizing the tooling is maybe what I would look at for the most part.
+
+257
+00:19:26,600 --> 00:19:31,620
+ And as agents do more, what human skill do you think becomes more valuable, not less?
+
+258
+00:19:33,060 --> 00:19:34,360
+ So, yeah, it's a good question.
+
+259
+00:19:34,540 --> 00:19:39,420
+ I think, well, right now the answer is that the agents are kind of like these intern entities, right?
+
+260
+00:19:39,480 --> 00:19:41,320
+ So it's remarkable.
+
+261
+00:19:42,880 --> 00:19:48,500
+ You basically still have to be in charge of the aesthetics, the judgment, the taste, and a little bit of oversight.
+
+262
+00:19:48,500 --> 00:19:58,920
+ Maybe one of my favorite examples of like the weirdness of agents is for Menugen, you sign up with a Google account, but you purchase.
+
+263
+00:20:00,000 --> 00:20:04,520
+ credits using a Stripe account, and both of them have email addresses. And my agent actually
+
+264
+00:20:04,520 --> 00:20:11,460
+ tries to basically, like when you purchase credits, it assigned it using the email address
+
+265
+00:20:11,460 --> 00:20:17,760
+ from Stripe to the Google email address. Like there wasn't a persistent user ID that, for
+
+266
+00:20:17,760 --> 00:20:20,980
+ people. It was trying to match up the email addresses, but you could use different email
+
+267
+00:20:20,980 --> 00:20:25,160
+ address for your Stripe and your Google, and basically would not associate the funds.
+
+268
+00:20:25,300 --> 00:20:29,160
+ And so this is the kind of thing that these agents still will make mistakes about, is
+
+269
+00:20:29,160 --> 00:20:32,460
+ like why would you use email addresses to try to cross-correlate the funds? They can
+
+270
+00:20:32,460 --> 00:20:36,320
+ be arbitrary. You can use different emails, et cetera. Like this is such a weird thing
+
+271
+00:20:36,320 --> 00:20:42,220
+ to do. So I think people have to be in charge of this spec, this plan. And I actually don't
+
+272
+00:20:42,220 --> 00:20:46,480
+ even like the plan mode. I would, I mean obviously it's very useful, but I think there's something
+
+273
+00:20:46,480 --> 00:20:50,460
+ more general here where you have to work with your agent to design a spec that is very detailed,
+
+274
+00:20:50,800 --> 00:20:55,640
+ and maybe it's basically the docs, and then get the agents to write them. And you're in
+
+275
+00:20:55,640 --> 00:20:59,860
+ charge of the oversight and the top level categories, but the agents are doing a lot of the under
+
+276
+00:20:59,860 --> 00:21:05,160
+ the hood. And so I think you're not caring about some of the details. So as an example also with
+
+277
+00:21:05,980 --> 00:21:11,580
+ arrays or tensors in neural networks, there's a ton of details between PyTorch and NumPy,
+
+278
+00:21:11,760 --> 00:21:16,440
+ and all the different like pandas and so on, for all the different little API details. And I already
+
+279
+00:21:16,440 --> 00:21:20,960
+ forgot about the keep dims versus keep dim, or whether it's dim or axis or reshape or permute or
+
+280
+00:21:20,960 --> 00:21:25,140
+ transpose. I don't remember this stuff anymore, right? Because you don't have to. This is the kind of details that are
+
+281
+00:21:25,140 --> 00:21:29,400
+ handled by the intern because they have very good recall. And, but you still have to know, for example,
+
+282
+00:21:29,580 --> 00:21:35,120
+ that, you know, there's underlying tensor, there's an underlying view, and then you can manipulate view of the
+
+283
+00:21:35,120 --> 00:21:39,240
+ same storage, or you can have different storage, which will be less efficient. And so you still have to have an
+
+284
+00:21:39,240 --> 00:21:45,040
+ understanding of what this stuff is doing and some of the fundamentals, so that you're not copying memory
+
+285
+00:21:45,040 --> 00:21:52,820
+ around unnecessarily and so on. But the details of the APIs are not handed off. So you're in charge of the taste, the
+
+286
+00:21:52,820 --> 00:21:57,080
+ engineering, the design, and that it makes sense, and that you're asking for the right things, and that
+
+287
+00:21:57,080 --> 00:22:00,560
+ you're saying that, okay, that these have to be unique user IDs that we're going to tie everything
+
+288
+00:22:00,560 --> 00:22:06,300
+ to. And so you're doing some of the design and development and the engineers are doing the
+
+289
+00:22:06,300 --> 00:22:09,360
+ fill in the blanks. And that's currently kind of like where we are. And I think that's what
+
+290
+00:22:09,360 --> 00:22:12,020
+ everyone, of course, is seeing, I think, right now.
+
+291
+00:22:12,020 --> 00:22:17,820
+ Do you think there's a chance that this taste and judgment matters less over time, or will
+
+292
+00:22:17,820 --> 00:22:19,100
+ the ceiling just keep rising?
+
+293
+00:22:20,120 --> 00:22:28,220
+ Yeah, it's a good question. I would say, I mean, I'm hoping that it improves. I think probably
+
+294
+00:22:28,220 --> 00:22:31,720
+ the reason it doesn't improve right now is, again, it's not part of the RL. There's probably
+
+295
+00:22:31,720 --> 00:22:39,480
+ no aesthetics cost or reward, or it's not good enough or something like that. I do think that when you
+
+296
+00:22:39,480 --> 00:22:43,200
+ actually look at the code, sometimes I get a little bit of a heart attack, because it's not
+
+297
+00:22:43,200 --> 00:22:46,480
+ like super amazing code necessarily all the time, and it's very bloaty, and there's a lot of copy
+
+298
+00:22:46,480 --> 00:22:51,120
+ paste, and there's awkward abstractions that are brittle, and like it works, but it's just really
+
+299
+00:22:51,120 --> 00:22:57,960
+ gross. And I do hope that this can improve in future models. A good example also is this, you
+
+300
+00:22:57,960 --> 00:23:03,740
+ know, micro GPT project, where I was trying to simplify LLM training to be as simple as possible.
+
+301
+00:23:03,900 --> 00:23:09,320
+ The models hate this. They can't do it. I kept trying to prompt an LLM to simplify
+
+302
+00:23:09,320 --> 00:23:14,060
+ more, simplify more, and it just can't, you feel like you're outside of the RL circuits.
+
+303
+00:23:14,300 --> 00:23:19,440
+ It feels like you're obviously, you know, you're pulling teeth. It's not like light speed.
+
+304
+00:23:20,280 --> 00:23:24,840
+ So I think, I do think that people are still remain in charge of this, but I do think that
+
+305
+00:23:24,840 --> 00:23:27,860
+ there's nothing fundamental, again, that's preventing it. It's just the labs haven't done it yet,
+
+306
+00:23:27,860 --> 00:23:29,340
+ almost. Yeah.
+
+307
+00:23:29,700 --> 00:23:35,680
+ So I'd love to come back to this idea of jagged forms of intelligence. You wrote a little bit
+
+308
+00:23:35,680 --> 00:23:41,620
+ about this with a very thought provoking piece around animals versus ghosts. And the idea is
+
+309
+00:23:41,620 --> 00:23:46,660
+ that we're not building animals, we are summoning ghosts. And these are jagged forms of intelligence
+
+310
+00:23:46,660 --> 00:23:53,200
+ that are shaped by data and reward functions, but not by intrinsic motivation or fun or curiosity
+
+311
+00:23:53,200 --> 00:24:01,740
+ or empowerment. Things that kind of came about via evolution. Why does that framing matter? And what does
+
+312
+00:24:01,740 --> 00:24:06,320
+ it actually change about how you build and deploy and evaluate or even trust them?
+
+313
+00:24:08,220 --> 00:24:13,320
+ Yeah. So, yeah, I think the reason I wrote about this is because I'm trying to wrap my head around
+
+314
+00:24:13,320 --> 00:24:17,140
+ what these things are, right? Because if you have a good model of what they are or are not, then you're
+
+315
+00:24:17,140 --> 00:24:24,560
+ going to be more competent at using them. And I do think that, I don't know if it has, I'm not sure if it
+
+316
+00:24:24,560 --> 00:24:31,560
+ actually has like real power. I think it's a little bit of philosophizing. But I do think that,
+
+317
+00:24:33,380 --> 00:24:37,940
+ I think it's just coming to terms with the fact that these things are not, you know, animal
+
+318
+00:24:37,940 --> 00:24:41,900
+ intelligences. Like if you yell at them, they're not going to work better or worse or it doesn't have
+
+319
+00:24:41,900 --> 00:24:50,540
+ any impact. And it's all just kind of like these statistical simulation circuits where the substrate is
+
+320
+00:24:50,540 --> 00:24:57,140
+ pre-training. So like statistics and then, but then there's RL bolting on top. So it kind of like increases the
+
+321
+00:24:57,900 --> 00:24:58,780
+ appendages. And, um,
+
+322
+00:25:00,000 --> 00:25:05,740
+ Maybe it's just kind of like a mindset of what I'm coming into or what's likely to work or not likely to work or how to modify it.
+
+323
+00:25:05,820 --> 00:25:11,460
+ But I don't actually, I don't know that I have like, here are the five obvious outcomes of how to make your system better.
+
+324
+00:25:11,680 --> 00:25:15,340
+ It's more just being suspicious of it and figuring it out over time.
+
+325
+00:25:16,160 --> 00:25:16,880
+ That's where it starts.
+
+326
+00:25:17,460 --> 00:25:20,300
+ Okay, so you are so deep in working with agents that don't just chat.
+
+327
+00:25:20,540 --> 00:25:22,640
+ They have real permissions.
+
+328
+00:25:22,920 --> 00:25:24,180
+ They have local context.
+
+329
+00:25:24,520 --> 00:25:26,480
+ They actually take action on your behalf.
+
+330
+00:25:26,480 --> 00:25:30,000
+ What does the world look like when we all start to live in that world?
+
+331
+00:25:31,020 --> 00:25:39,780
+ Yeah, I think a lot of people probably here are excited about what this native agentic environment looks like.
+
+332
+00:25:39,940 --> 00:25:40,860
+ And everything has to be rewritten.
+
+333
+00:25:41,080 --> 00:25:44,580
+ Everything is still fundamentally written for humans and has to be moved around.
+
+334
+00:25:45,260 --> 00:25:51,760
+ I still use, most of the time when I use different frameworks or libraries or things like that, they still have docs that are fundamentally written for humans.
+
+335
+00:25:51,860 --> 00:25:53,440
+ This is my favorite pet peeve.
+
+336
+00:25:53,440 --> 00:25:56,560
+ Like, I don't, why are people still telling me what to do?
+
+337
+00:25:56,680 --> 00:25:57,560
+ Like, I don't want to do anything.
+
+338
+00:25:57,740 --> 00:25:59,440
+ What is the thing I should copy paste to my agent?
+
+339
+00:26:01,200 --> 00:26:07,340
+ So it's just, every time I'm told, you know, go to this URL or something like that, it's just like, oh, you know.
+
+340
+00:26:09,020 --> 00:26:17,180
+ So, everyone is, I think, excited about how do we decompose the workloads that need to happen into fundamentally sensors over the world, actuators over the world.
+
+341
+00:26:17,360 --> 00:26:18,840
+ How do we make it agent native?
+
+342
+00:26:19,160 --> 00:26:20,740
+ Basically, describe it to agents first.
+
+343
+00:26:21,800 --> 00:26:31,040
+ And then, I have a lot of automation around, you know, the, yeah, around data structures that are very legible to the LLMs.
+
+344
+00:26:31,720 --> 00:26:36,360
+ So I think, yeah, I'm hoping that there's a lot of agent first infrastructure out there.
+
+345
+00:26:36,700 --> 00:26:47,660
+ And that, you know, for Menugen, famously, when I wrote the, I'm not sure how famously, but when I wrote the blog post about Menugen, a lot of the work, a lot of the trouble was not even writing the code for Menugen.
+
+346
+00:26:47,820 --> 00:26:55,500
+ It was deploying it on Vercel because I had to work with all these different services and I had to string them up and I had to go to their settings and the menus and, you know, configure my DNS.
+
+347
+00:26:55,500 --> 00:26:56,820
+ And it was just so annoying.
+
+348
+00:26:57,060 --> 00:27:07,960
+ And so, that's a good example of, I would hope that Menugen, that I could give a prompt to an LLM, build Menugen, and that I didn't have to touch anything and it's deployed in that same way on the internet.
+
+349
+00:27:08,320 --> 00:27:14,140
+ I think that would be a good kind of a test for whether or not a lot of our infrastructure is becoming more and more agent native.
+
+350
+00:27:14,520 --> 00:27:22,340
+ And then, ultimately, I would say, yeah, I do think we're going towards a world where there's agent representation for people and for organizations.
+
+351
+00:27:24,700 --> 00:27:30,840
+ And, you know, I'll have my agent talk to your agent to figure out some of the details of our meetings or things like that.
+
+352
+00:27:31,020 --> 00:27:35,240
+ So, I do think that that's roughly where things are going.
+
+353
+00:27:35,440 --> 00:27:37,660
+ But, yeah, I think everyone here is excited about that.
+
+354
+00:27:37,820 --> 00:27:40,720
+ I really like the visual analogy of sensors and actuators.
+
+355
+00:27:40,880 --> 00:27:41,980
+ I actually hadn't thought about that.
+
+356
+00:27:41,980 --> 00:27:42,620
+ That's super interesting.
+
+357
+00:27:42,820 --> 00:27:42,920
+ Right.
+
+358
+00:27:43,500 --> 00:27:51,760
+ Okay, I think we have to end on a question about education because you are probably one of the very best in the world at making complex technical concepts simple.
+
+359
+00:27:51,760 --> 00:27:55,620
+ and deeply thoughtful about how we design education around it.
+
+360
+00:27:56,920 --> 00:28:04,440
+ What still remains worth learning deeply when intelligence gets cheap as we move into the next era of AI?
+
+361
+00:28:04,900 --> 00:28:05,380
+ Yeah.
+
+362
+00:28:06,000 --> 00:28:09,780
+ There was a tweet that blew my mind recently, and I keep thinking about it like every other day.
+
+363
+00:28:09,940 --> 00:28:15,020
+ It was something along the lines of you can outsource your thinking, but you can't outsource your understanding.
+
+364
+00:28:17,260 --> 00:28:18,580
+ I think that's really nicely put.
+
+365
+00:28:20,540 --> 00:28:26,980
+ So, yeah, because I still, I'm still part of the system, and I still have to, somehow information still has to make it into my brain.
+
+366
+00:28:27,100 --> 00:28:34,540
+ And I feel like I'm becoming a bottleneck of just even knowing what are we trying to build, why is it worth doing, how do I direct my agents, and so on.
+
+367
+00:28:34,540 --> 00:28:45,200
+ So, I do still think that ultimately something has to direct the thinking, and the processing, and so on, and that's still kind of fundamentally constrained somehow by understanding.
+
+368
+00:28:45,420 --> 00:28:51,900
+ And this is one reason I also was very excited about all the LLM knowledge bases, because I feel like that's a way for me to process information.
+
+369
+00:28:51,900 --> 00:28:56,100
+ And anytime I see a different projection onto information, I always, like, feel like I gain insight.
+
+370
+00:28:56,260 --> 00:29:01,400
+ So, it's really just a lot of prompts for me to do synthetic data generation kind of over some fixed data.
+
+371
+00:29:01,800 --> 00:29:16,300
+ So, I really enjoy, whenever I read an article, I have my, you know, my wiki that's being built up from these articles, and I love asking questions about things, or, and I think that ultimately these are tools to enhance understanding in a certain way.
+
+372
+00:29:16,300 --> 00:29:27,680
+ And this is still kind of like a bit of a bottleneck, because then you can't direct the, you can't be a good director if you still, because the LLM certainly don't excel at understanding you still are uniquely in charge of that.
+
+373
+00:29:27,820 --> 00:29:32,540
+ So, yeah, I think tools to that effect, I think, are incredibly interesting and exciting.
+
+374
+00:29:32,940 --> 00:29:39,880
+ I'm excited to be back here in a couple years, and to see if we've been fully automated out of the loop, and they actually take care of understanding as well.
+
+375
+00:29:40,240 --> 00:29:41,680
+ Thank you so much for joining us, Andre.
+
+376
+00:29:41,860 --> 00:29:42,000
+ Thank you.
+
+377
+00:29:42,000 --> 00:29:42,700
+ I really appreciate it.
+
+378
+00:29:46,300 --> 00:29:47,640
+ Thank you.
