@@ -1,0 +1,20 @@
+{
+  "declared_inputs": {
+    "reports": {
+      "from": "notebooklm-research.outputs.reports",
+      "required": true
+    }
+  },
+  "optional_inputs": {
+    "deep_research": {
+      "from": "youtube-deep-research.outputs.analysis_file",
+      "required": false
+    }
+  },
+  "resolved_inputs": {
+    "reports": [
+      "raw/notebooklm-analysis/永不言弃-关于长期关系承诺与情感忠诚的深度分析简报.md"
+    ],
+    "deep_research": []
+  }
+}
