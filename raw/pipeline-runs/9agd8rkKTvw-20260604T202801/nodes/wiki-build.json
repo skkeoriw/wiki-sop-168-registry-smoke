@@ -1,0 +1,61 @@
+{
+  "pipeline_id": "9agd8rkKTvw-20260604T202801",
+  "node_id": "wiki-build",
+  "run_id": "direct-wiki-build-1780604949",
+  "status": "running",
+  "mode": "blocking",
+  "needs": [
+    "notebooklm-research"
+  ],
+  "started_at": "2026-06-04T20:29:09Z",
+  "finished_at": "",
+  "inputs": {
+    "reports": "notebooklm-research.outputs.reports"
+  },
+  "outputs": {
+    "index": "index.md",
+    "pages": "wiki/**"
+  },
+  "optional_inputs": {
+    "deep_research": "youtube-deep-research.outputs.analysis_file"
+  },
+  "executor": {
+    "type": "skill",
+    "skill": "sop-wiki-build",
+    "webhook_route": "sop-wiki-build"
+  },
+  "declared_inputs": {
+    "reports": {
+      "from": "notebooklm-research.outputs.reports",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Claude-Code-Dynamic-Workflows-高级用法与实践简报.md"
+    ],
+    "deep_research": []
+  },
+  "declared_outputs": {
+    "index": {
+      "path": "index.md",
+      "type": "file"
+    },
+    "pages": {
+      "path": "wiki/**",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {},
+  "artifacts": [],
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "notebooklm-research"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T20:29:10Z"
+}

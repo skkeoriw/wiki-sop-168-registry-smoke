@@ -2,13 +2,13 @@
   "pipeline_id": "9agd8rkKTvw-20260604T202801",
   "node_id": "youtube-deep-research",
   "run_id": "direct-youtube-deep-research-1780604890",
-  "status": "running",
+  "status": "done",
   "mode": "sidecar",
   "needs": [
     "youtube-fetch"
   ],
   "started_at": "2026-06-04T20:28:10Z",
-  "finished_at": "",
+  "finished_at": "2026-06-04T20:31:16Z",
   "inputs": {
     "source_url": "youtube-fetch.outputs.source_url"
   },
@@ -41,10 +41,50 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "analysis_file": [
+      "raw/youtube-deep-research/9agd8rkKTvw-20260604T202801/analysis.md"
+    ],
+    "transcript_file": [
+      "raw/youtube-deep-research/9agd8rkKTvw-20260604T202801/transcript.txt"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "0de5ed74c24a9ccd",
+      "producer": "youtube-deep-research",
+      "output": "analysis_file",
+      "type": "research.analysis",
+      "format": "markdown",
+      "path": "raw/youtube-deep-research/9agd8rkKTvw-20260604T202801/analysis.md",
+      "title": "analysis.md",
+      "size": 39634,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    },
+    {
+      "id": "0aff48ad84cabad4",
+      "producer": "youtube-deep-research",
+      "output": "transcript_file",
+      "type": "research.transcript",
+      "format": "text",
+      "path": "raw/youtube-deep-research/9agd8rkKTvw-20260604T202801/transcript.txt",
+      "title": "transcript.txt",
+      "size": 10781,
+      "mime_type": "text/plain",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "recorded"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
@@ -52,5 +92,5 @@
     "started_by": "youtube-fetch"
   },
   "error": "",
-  "updated_at": "2026-06-04T20:28:11Z"
+  "updated_at": "2026-06-04T20:31:16Z"
 }
