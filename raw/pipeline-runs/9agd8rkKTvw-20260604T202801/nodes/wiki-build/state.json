@@ -2,20 +2,20 @@
   "pipeline_id": "9agd8rkKTvw-20260604T202801",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780604949",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-04T20:29:09Z",
-  "finished_at": "",
+  "finished_at": "2026-06-04T20:42:16Z",
   "executor": {
     "type": "skill",
     "skill": "sop-wiki-build",
     "webhook_route": "sop-wiki-build"
   },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
@@ -23,5 +23,5 @@
     "started_by": "notebooklm-research"
   },
   "error": "",
-  "updated_at": "2026-06-04T20:29:10Z"
+  "updated_at": "2026-06-04T20:42:16Z"
 }
