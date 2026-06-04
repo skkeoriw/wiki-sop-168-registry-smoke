@@ -13,34 +13,39 @@
     "meta_file": "raw/youtube-metadata/rBUfD_wvbhw.json"
   },
   "stage_b": {
-    "run_id": "direct-notebooklm-research-1780562017",
-    "start_time": "2026-06-04T08:33:37Z",
-    "end_time": "2026-06-04T08:34:37Z",
-    "duration_s": 60,
-    "status": "success",
-    "videos_processed": 1,
-    "reports_generated": 1,
-    "mindmaps_generated": 0,
-    "processed_urls": [
-      "https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s"
-    ],
-    "output_files": [
-      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md"
-    ],
-    "generated_files": [
-      {
-        "type": "report",
-        "path": "/tmp/notebooklm_processor/1780562065_report-1780562059.md"
-      }
-    ],
     "source_metadata": {
-      "video_id": "rBUfD_wvbhw",
       "title": "🚀Hermes Agent高级玩法之三大隐藏技能全公开！Ollama云端免费模型+Open WebUI美化界面+主副模型省Token配置，稳定性碾压小龙虾，一键部署免费云端模型完整教程，小白3分钟上手",
-      "author": "AI超元域",
-      "published_at": "2026-04-21T14:51:56Z",
       "youtube_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw",
-      "thumbnail": "https://i.ytimg.com/vi/rBUfD_wvbhw/hqdefault.jpg",
-      "source_type": "youtube"
-    }
+      "author": "AI超元域"
+    },
+    "output_files": [
+      "raw/notebooklm-analysis/Hermes-Agent高级玩法之三大隐藏技能全公开-Ollama云端免费模型-Open-WebUI美化界面-主副模型省Token配置-稳定性碾压小龙虾-一键部-youtube-deep-research.md"
+    ]
+  },
+  "stage_deep_research": {
+    "run_id": "direct-youtube-deep-research-1780562017",
+    "job_id": "b065a5f8-4d87-4355-83ce-82928ac7865a",
+    "status": "completed",
+    "start_time": "",
+    "end_time": "2026-06-04T08:36:58Z",
+    "output_files": [
+      "raw/youtube-deep-research/rBUfD_wvbhw-20260604T083329/analysis.md",
+      "raw/youtube-deep-research/rBUfD_wvbhw-20260604T083329/status.json",
+      "raw/notebooklm-analysis/Hermes-Agent高级玩法之三大隐藏技能全公开-Ollama云端免费模型-Open-WebUI美化界面-主副模型省Token配置-稳定性碾压小龙虾-一键部-youtube-deep-research.md"
+    ],
+    "worker_files": {
+      "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript",
+      "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=txt",
+      "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=srt",
+      "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=vtt",
+      "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=csv",
+      "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=md",
+      "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?translated=1",
+      "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=srt&translated=1",
+      "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=vtt&translated=1",
+      "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/b065a5f8-4d87-4355-83ce-82928ac7865a/transcript?format=txt&translated=1"
+    },
+    "chunks_total": 3,
+    "chunks_done": 3
   }
 }

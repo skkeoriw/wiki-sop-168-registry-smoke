@@ -1,0 +1,61 @@
+{
+  "pipeline_id": "rBUfD_wvbhw-20260604T083329",
+  "node_id": "wiki-build",
+  "run_id": "direct-wiki-build-1780562081",
+  "status": "running",
+  "mode": "blocking",
+  "needs": [
+    "notebooklm-research"
+  ],
+  "started_at": "2026-06-04T08:34:41Z",
+  "finished_at": "",
+  "inputs": {
+    "reports": "notebooklm-research.outputs.reports"
+  },
+  "outputs": {
+    "index": "index.md",
+    "pages": "wiki/**"
+  },
+  "optional_inputs": {
+    "deep_research": "youtube-deep-research.outputs.analysis_file"
+  },
+  "executor": {
+    "type": "skill",
+    "skill": "sop-wiki-build",
+    "webhook_route": "sop-wiki-build"
+  },
+  "declared_inputs": {
+    "reports": {
+      "from": "notebooklm-research.outputs.reports",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md"
+    ],
+    "deep_research": []
+  },
+  "declared_outputs": {
+    "index": {
+      "path": "index.md",
+      "type": "file"
+    },
+    "pages": {
+      "path": "wiki/**",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {},
+  "artifacts": [],
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "notebooklm-research"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T08:34:41Z"
+}

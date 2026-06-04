@@ -1,0 +1,20 @@
+{
+  "declared_inputs": {
+    "reports": {
+      "from": "notebooklm-research.outputs.reports",
+      "required": true
+    }
+  },
+  "optional_inputs": {
+    "deep_research": {
+      "from": "youtube-deep-research.outputs.analysis_file",
+      "required": false
+    }
+  },
+  "resolved_inputs": {
+    "reports": [
+      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md"
+    ],
+    "deep_research": []
+  }
+}
