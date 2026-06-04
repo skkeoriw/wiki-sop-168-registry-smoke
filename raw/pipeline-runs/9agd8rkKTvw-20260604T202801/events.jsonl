@@ -9,3 +9,4 @@
 {"ts": "2026-06-04T20:42:16Z", "event": "node_done", "pipeline_id": "9agd8rkKTvw-20260604T202801", "node_id": "wiki-build", "run_id": "direct-wiki-build-1780604949", "status": "done", "error": ""}
 {"ts": "2026-06-04T20:42:18Z", "event": "node_running", "pipeline_id": "9agd8rkKTvw-20260604T202801", "node_id": "tg-notify", "run_id": "direct-tg-notify-1780605738", "status": "running", "error": ""}
 {"ts": "2026-06-04T20:42:19Z", "event": "node_running", "pipeline_id": "9agd8rkKTvw-20260604T202801", "node_id": "tg-notify", "run_id": "direct-wiki-build-1780604949", "status": "running", "error": ""}
+{"ts": "2026-06-04T20:42:22Z", "event": "node_done", "pipeline_id": "9agd8rkKTvw-20260604T202801", "node_id": "tg-notify", "run_id": "direct-wiki-build-1780604949", "status": "done", "error": ""}

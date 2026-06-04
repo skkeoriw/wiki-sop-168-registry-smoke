@@ -16,6 +16,20 @@
     "resolution": "context"
   },
   {
+    "id": "820007eb3a112afd",
+    "producer": "tg-notify",
+    "output": "telegram_message",
+    "type": "file",
+    "format": "json",
+    "path": "logs/pipeline-runs/pipe-direct-wiki-build-1780604949.json",
+    "title": "pipe-direct-wiki-build-1780604949.json",
+    "size": 7903,
+    "mime_type": "application/json",
+    "tags": [],
+    "metadata": {},
+    "resolution": "recorded"
+  },
+  {
     "id": "a909ab8f85846403",
     "producer": "wiki-build",
     "output": "index",
