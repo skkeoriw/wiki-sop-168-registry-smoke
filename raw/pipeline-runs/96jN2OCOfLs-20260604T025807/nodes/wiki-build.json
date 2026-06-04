@@ -2,13 +2,13 @@
   "pipeline_id": "96jN2OCOfLs-20260604T025807",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780541972",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-04T02:59:32Z",
-  "finished_at": "",
+  "finished_at": "2026-06-04T03:13:13Z",
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -23,5 +23,5 @@
     "started_by": "notebooklm-research"
   },
   "error": "",
-  "updated_at": "2026-06-04T02:59:32Z"
+  "updated_at": "2026-06-04T03:13:13Z"
 }
