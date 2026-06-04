@@ -1,0 +1,2 @@
+{"ts": "2026-06-04T08:33:32Z", "event": "node_running", "pipeline_id": "rBUfD_wvbhw-20260604T083329", "node_id": "youtube-fetch", "run_id": "direct-1780562012", "status": "running", "error": ""}
+{"ts": "2026-06-04T08:33:36Z", "event": "node_done", "pipeline_id": "rBUfD_wvbhw-20260604T083329", "node_id": "youtube-fetch", "run_id": "direct-1780562012", "status": "done", "error": ""}
