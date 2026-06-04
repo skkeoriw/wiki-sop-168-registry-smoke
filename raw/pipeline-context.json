@@ -13,10 +13,34 @@
     "meta_file": "raw/youtube-metadata/rBUfD_wvbhw.json"
   },
   "stage_b": {
+    "run_id": "direct-notebooklm-research-1780562017",
+    "start_time": "2026-06-04T08:33:37Z",
+    "end_time": "2026-06-04T08:34:37Z",
+    "duration_s": 60,
+    "status": "success",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 0,
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s"
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置指南-稳定性-交互优化与-Token-节.md"
+    ],
+    "generated_files": [
+      {
+        "type": "report",
+        "path": "/tmp/notebooklm_processor/1780562065_report-1780562059.md"
+      }
+    ],
     "source_metadata": {
+      "video_id": "rBUfD_wvbhw",
       "title": "🚀Hermes Agent高级玩法之三大隐藏技能全公开！Ollama云端免费模型+Open WebUI美化界面+主副模型省Token配置，稳定性碾压小龙虾，一键部署免费云端模型完整教程，小白3分钟上手",
+      "author": "AI超元域",
+      "published_at": "2026-04-21T14:51:56Z",
       "youtube_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw",
-      "author": "AI超元域"
+      "thumbnail": "https://i.ytimg.com/vi/rBUfD_wvbhw/hqdefault.jpg",
+      "source_type": "youtube"
     }
   }
 }
