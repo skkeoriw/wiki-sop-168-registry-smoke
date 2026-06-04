@@ -1,0 +1,88 @@
+{
+  "pipeline_id": "dQw4w9WgXcQ-20260604T121450",
+  "node_id": "notebooklm-research",
+  "run_id": "direct-notebooklm-research-1780575299",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-04T12:14:59Z",
+  "finished_at": "2026-06-04T12:16:12Z",
+  "inputs": {
+    "source_url": "youtube-fetch.outputs.source_url",
+    "metadata_file": "youtube-fetch.outputs.metadata_file"
+  },
+  "outputs": {
+    "reports": "raw/notebooklm-analysis/*.md",
+    "mindmaps": "raw/notebooklm-mindmaps/*.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "skill",
+    "skill": "sop-notebooklm-research",
+    "webhook_route": "sop-notebooklm-research"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "youtube-fetch.outputs.source_url",
+      "required": true
+    },
+    "metadata_file": {
+      "from": "youtube-fetch.outputs.metadata_file",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "metadata_file": [
+      "raw/youtube-metadata/dQw4w9WgXcQ.json"
+    ]
+  },
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/永不言弃-关于长期关系承诺与情感忠诚的深度分析简报.md"
+    ],
+    "mindmaps": []
+  },
+  "artifacts": [
+    {
+      "id": "97073c3d67fddebc",
+      "producer": "notebooklm-research",
+      "output": "reports",
+      "type": "research.report",
+      "format": "markdown",
+      "path": "raw/notebooklm-analysis/永不言弃-关于长期关系承诺与情感忠诚的深度分析简报.md",
+      "title": "永不言弃-关于长期关系承诺与情感忠诚的深度分析简报.md",
+      "size": 4528,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
+  "validation": {
+    "status": "warning",
+    "missing_outputs": [
+      "mindmaps"
+    ],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "youtube-fetch"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T12:16:12Z"
+}
