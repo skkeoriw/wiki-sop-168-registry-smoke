@@ -1,0 +1,793 @@
+{
+  "transcript": "在前几期视频中 我为大家讲解并且演示了cloudcode新增的dynamic workflow的用法 从最开始大家对dynamic workflows的质疑 到后来anthropic官方正式宣布cloudcode dynamic workflow功能 大家才对这个功能有了认可 而且无数开发者都对dynamic workflows这个功能大加赞赏 而且这几天很多粉丝私信让我继续讲 讲cloudcode dynamic workflow的高级用法 因为dynamic workflows确实非常强大 所以本期视频继续为大家分享cloudcode dynamic workflows的高级技巧 还有使用经验 本期视频如果点赞破签的话 后续我会继续为大家分享更多关于cloudcode高级用法的视频 在最新版的cloudcode中 anthropic官方将之前的workflow关键词改成了outrocode 输入之后我们只要看到这个关键词出现了这种见面效果 就说明在cloudcode中已经激活了dynamic workflows功能 在后面就可以跟上我们的任务 目前我使用cloudcode版本号是v2.1.162 在之前的视频中我为大家讲解过dynamic workflows它的概念原理 还分享了如何用更省token的方式来使用dynamic workflows 以及如何附用dynamic workflows的js脚本 下面继续为大家分享dynamic workflows更多高级用法 好下面我们就可以用opencloud这个开源项目的仓库进行测试 因为opencloud它有非常多的bug 然后我们就可以测试一下dynamic workflow来分析这些issues 在cloudcode中我们先输入outrocode 在后面我们就可以跟上我们的任务 然后我们看一下我输入的这个提示词 要求只读分析这个项目最近50个openissues 先展示workflow plan不要立即执行 在这里是这个目标要求他找出10个top10高优先级的issues 然后我们就可以直接运行 相见的话我们只需要使用outrocode就可以来启用dynamic workflows 在这个任务提示词中我们要求他先展示workflow plan 不要立即执行相见的话我们就可以来审计他生成的这个plan 而不是让他直接执行 因为直接执行的话他可能会派生出非常多的subagents 从而比较浪费token好这里他输出了workflow plan 在这里还提到识别到这是已经验证过的模式 然后我们看一下他生成的这个workflow的流程图 第一步他会先获取仓库中的50个issues 当确认抓取成功之后他才会调用这个workflow 在workflow的这个pipeline这里包括issues然后分析还有验证 在分析阶段每个issue会派一个agent 这些agent的数量会小于等于50 在验证这里每个issue也会分配一个agent 在最后合成这里只需要一个agent 在下面这里他给出了这个workflow js脚本的完整代码 然后我们就可以对这个代码进行审查 如果我们感觉没有问题就可以让他来执行 在阶段这里我们就可以看到这三个阶段 包括分析验证还有合成报告 在这里是他给出的这几个优先级信号 包括崩溃数据流失作为最高优先级 在这里还提到为什么验证阶段不可省 在最后这里就给出了运行前需要锁定两个会改变结果的决策 包括高优先级怎么排序 在这里我们就可以按照他的提示直接选第一项 在分析深度方面我们也可以按照他的提示来选 这里我们就默认选择第一项 但我们感觉这些没有问题之后 我们就可以直接按提交 让他来运行刚才生成的这个工作流 在这里他就提示workflow已经启动 而且这里输出了这三个阶段 我们就可以看到他一共派生了几十个agents 同时并发九个agents 下面我们还可以让cloudcode在执行dynamic workflow脚本之前 展示更加详细的信息 在任务这里还是和刚才一样的任务 在下面这里我们要求他在运行之前 先展示workflow的执行阶段 每个阶段预计使用多少agents 会检查哪些文件或目录 每个阶段使用什么模型停止条件是什么 最终验收标准是什么 并告诉他在批准之前不要开始执行 然后我们直接运行 这样的话我们就可以看到更加详细的workflow的信息 这里他就提示他已经设计好了这个workflow 然后我们看一下我们要求他输出的这些内容 包括这里的执行阶段 还有agent的数量 还有模型 还有检查员 第一阶段就是拉取最近50个open issues的全两元数据 在第一阶段是不需要使用agent的 所以这里数量是0 然后第二阶段就是每个assus的分析 这里是agent的数量 然后模型是ops模型 然后第三阶段就是通过对抗分析 判断这些assus是否修复是否重复等等 在agent的数量这里也是50 在模型这里还是ops模型 然后第4阶段就是对 由于上面产出的这些数据进行整理 并且合成最终的报告 在agent的数量这里是1 模型这里是ops 然后这里还给出了第五阶段 然后这里给出了这些agent的数量的合计 他给出了并发上线大概是10到14个 相近的话 在每一阶段他都使用ops模型 因为这个模型非常昂贵 然后我们可以让他将第二阶段 第三阶段所用到的模型都改成更加便宜的模型 比如说我们直接用提示词让他修改 将第二阶段和第三阶段的模型改成sunit模型 或者hyku模型 然后直接运行 然后紧接着他就为我们生成了这些组合建议 第一个建议就是第二阶段和第三阶段都用sunit的模型 然后第二个建议就是用hyku来分析 用sunit来验证 也就是第二阶段用hyku 第三阶段用sunit模型 然后第三个选项就是两阶段都用hyku 在这里我们就选择第二项他给出的这个组合 也就是用hyku分析 用sunit验证 我们直接选中 cloudcode就非常智能的帮我们设计了这些选项 然后这里就输出了第二阶段使用hyku 第三阶段使用sunit 在这个表格中就是这几个阶段所用到的模型 然后我们就可以根据他的提示按这个跑 让他来启动这个workflow 我们直接运行 然后我们就可以看到在这个阶段他用的都是hyku模型 然后我们再切到下一个阶段 在这个阶段他用的就是sunit模型 相近的话 我们就可以指定他在每个阶段所用到的模型是什么 这样的话就可以更加节省我们的token 好 下面我们继续测试 这一次我们可以让他来调用mcp 比如说这一次让他调用codegraph这个项目 让他对一个开源项目的仓库进行分析 因为codegraph这个项目他是支持mcp的 所以我们就可以让cloudcode通过codegraph的mcp 在dynamicworkflows中使用codegraph 下面我们就可以看一下我出的这个任务 要求他使用dynamicworkflow分析仓库中潜在的bug 这里告诉他了总预算为200万token 要求使用codegraphmcp做代码导航 并且要求重点关注这些模块 可能存在的bug 输出格式是简洁的markdown报告 并且要求他在完整执行之前 先展示workflow plan 在这里我们就给他了一个开源项目的仓库链接 也就是这个为opencloud开发的记忆系统的这个仓库 然后我们就可以直接运行 先让cloudcode根据我们的任务 先生成workflow plan 在这个任务中 我们设置了这个token的预算 还明确了 让他调用codegraphmcp 好 这里cloudcode就输出了这个workflow plan 在这里就是需要检查的这些代码文件 然后这里给出了五个阶段 然后在这里他给出了这几个选项 在这里我们就可以选择第一项 然后他提示这个最终报告应该怎么办 然后我们这里就选择输出并且保存 然后就直接提交cloudcode就会启用这个workflow 这里这个workflow正在运行 然后我们就可以来具体看一下 这是第一阶段 然后我们可以进入一个agent进行查看 进入之后 我们就可以看到他这里调用了codegraphmcp 然后我们还可以查看其他的agent 可以看到这里他都调用了codegraphmcp 而且在这里我们还可以看到他们调用的工具的数量 相见的话 我们就实现了在dynamicworkflow中 让这些agent来调用mcp 就可以发挥出dynamicworkflow更强大的潜力 好 下面我们可以继续测试 我们甚至可以在dynamicworkflow中调用codexcri 执行代码审查任务 我们可以看一下我输入的这个任务 让他用dynamicworkflow对这个开源项目 也就是opencloud记忆插件 做止读交叉验证review 目标就是找潜在bug不修改代码 要求启动三个review 包括调用codexcri的review 第二个review就是使用ops模型进行独立审查的review 第三个就是使用sunet模型进行独立审查的review 要求就是codexcri只启动一次 单一review不可用 就标记不可用 不能假装在执行 只做文件和代码证据的问题 最后这里就是要求他输出的这些内容 然后我们直接运行 好 这里提示这个工作流正在运行 下面我们就可以查看一下 在第一阶段这里有三个agent 第一个是调用codex的 第二个是调用了ops模型 第三个是调用了sunet模型 然后我们就可以进入第一个进行查看 进入之后 在命令这里 他正在调用codex命令 对这个项目进行审查 他是通过sunet模型来调用的codexcri执行的审查任务 在这里我们还可以看到他们所消耗的token 这个ops模型与sunet模型 他们消耗的token已经搭 达到了100多k 然后这个调用codexcli的agent 他只消耗了20k token 这里还会显示他调用了三个工具 也就是刚才我们查看的 他调用的这三个工具 相见的话 我们就成功在dynamic workflow中 引入了codexcli也参与代码的review 从而不单单只依靠cloud系列模型对代码进行review 因为codex他对代码的review能力也是非常强的 很多cloud无法发现的潜在bug 用codex反而能发现 好 在这里他输出了这个交叉验证的review报告 在这里就是最终确认的这些bug 一共有5个bug 这里是对这些bug的详细描述 在最后这里他就给出了这些修复建议 像这样的话 我们就完成了在dynamic workflow中 调用codexcli 以及ops模型 还有三枚的模型 对我们的开源项目做了review 并且成功发现了这5个潜在的bug 当我们下次还需要使用这个工作流的时候 我们就可以继续附用刚才cloudcode来生成的这个workflow的这个脚本 然后我们还可以在vs code中看一下这个脚本是如何调用codex的 在这里我们就可以看到他创建了一个agent 用这个agent来调用codexcli 驱动这个agent的模型是sunet的模型 像这样的话 下次我们就可以直接在cloudcode中来附用这个脚本 对其他项目进行交叉验证的review 这是我们测试的在dynamic workflow中调用codexcli 而且我们还可以在dynamic workflow中调用更多工具 从而让cloudcode更加强大 好 本期视频就做到这里 欢迎大家点赞关注和转发 谢谢大家观看",
+  "segments": [
+    {
+      "start": 2.34,
+      "end": 8.64,
+      "text": "在前几期视频中 我为大家讲解并且演示了cloudcode新增的dynamic workflow的用法"
+    },
+    {
+      "start": 8.64,
+      "end": 11.9,
+      "text": "从最开始大家对dynamic workflows的质疑"
+    },
+    {
+      "start": 11.9,
+      "end": 17.18,
+      "text": "到后来anthropic官方正式宣布cloudcode dynamic workflow功能"
+    },
+    {
+      "start": 17.18,
+      "end": 19.48,
+      "text": "大家才对这个功能有了认可"
+    },
+    {
+      "start": 19.48,
+      "end": 24.04,
+      "text": "而且无数开发者都对dynamic workflows这个功能大加赞赏"
+    },
+    {
+      "start": 24.04,
+      "end": 27.18,
+      "text": "而且这几天很多粉丝私信让我继续讲"
+    },
+    {
+      "start": 27.18,
+      "end": 30.28,
+      "text": "讲cloudcode dynamic workflow的高级用法"
+    },
+    {
+      "start": 30.28,
+      "end": 33.38,
+      "text": "因为dynamic workflows确实非常强大"
+    },
+    {
+      "start": 33.38,
+      "end": 38.4,
+      "text": "所以本期视频继续为大家分享cloudcode dynamic workflows的高级技巧"
+    },
+    {
+      "start": 38.4,
+      "end": 39.28,
+      "text": "还有使用经验"
+    },
+    {
+      "start": 39.28,
+      "end": 41.6,
+      "text": "本期视频如果点赞破签的话"
+    },
+    {
+      "start": 41.6,
+      "end": 46.46,
+      "text": "后续我会继续为大家分享更多关于cloudcode高级用法的视频"
+    },
+    {
+      "start": 46.46,
+      "end": 48.58,
+      "text": "在最新版的cloudcode中"
+    },
+    {
+      "start": 48.58,
+      "end": 52.46,
+      "text": "anthropic官方将之前的workflow关键词改成了outrocode"
+    },
+    {
+      "start": 52.46,
+      "end": 56.72,
+      "text": "输入之后我们只要看到这个关键词出现了这种见面效果"
+    },
+    {
+      "start": 56.72,
+      "end": 60.6,
+      "text": "就说明在cloudcode中已经激活了dynamic workflows功能"
+    },
+    {
+      "start": 60.6,
+      "end": 63.08,
+      "text": "在后面就可以跟上我们的任务"
+    },
+    {
+      "start": 63.08,
+      "end": 66.92,
+      "text": "目前我使用cloudcode版本号是v2.1.162"
+    },
+    {
+      "start": 66.92,
+      "end": 72.36,
+      "text": "在之前的视频中我为大家讲解过dynamic workflows它的概念原理"
+    },
+    {
+      "start": 72.36,
+      "end": 76.44,
+      "text": "还分享了如何用更省token的方式来使用dynamic workflows"
+    },
+    {
+      "start": 76.44,
+      "end": 80.48,
+      "text": "以及如何附用dynamic workflows的js脚本"
+    },
+    {
+      "start": 80.48,
+      "end": 84.6,
+      "text": "下面继续为大家分享dynamic workflows更多高级用法"
+    },
+    {
+      "start": 84.6,
+      "end": 88.9,
+      "text": "好下面我们就可以用opencloud这个开源项目的仓库进行测试"
+    },
+    {
+      "start": 88.9,
+      "end": 91.14,
+      "text": "因为opencloud它有非常多的bug"
+    },
+    {
+      "start": 91.14,
+      "end": 96.02,
+      "text": "然后我们就可以测试一下dynamic workflow来分析这些issues"
+    },
+    {
+      "start": 96.02,
+      "end": 98.5,
+      "text": "在cloudcode中我们先输入outrocode"
+    },
+    {
+      "start": 99.04,
+      "end": 100.98,
+      "text": "在后面我们就可以跟上我们的任务"
+    },
+    {
+      "start": 100.98,
+      "end": 103.12,
+      "text": "然后我们看一下我输入的这个提示词"
+    },
+    {
+      "start": 103.12,
+      "end": 106.66,
+      "text": "要求只读分析这个项目最近50个openissues"
+    },
+    {
+      "start": 107.24,
+      "end": 109.76,
+      "text": "先展示workflow plan不要立即执行"
+    },
+    {
+      "start": 109.76,
+      "end": 114.94,
+      "text": "在这里是这个目标要求他找出10个top10高优先级的issues"
+    },
+    {
+      "start": 114.94,
+      "end": 116.96,
+      "text": "然后我们就可以直接运行"
+    },
+    {
+      "start": 116.96,
+      "end": 122.16,
+      "text": "相见的话我们只需要使用outrocode就可以来启用dynamic workflows"
+    },
+    {
+      "start": 122.86,
+      "end": 126.38,
+      "text": "在这个任务提示词中我们要求他先展示workflow plan"
+    },
+    {
+      "start": 126.38,
+      "end": 131.58,
+      "text": "不要立即执行相见的话我们就可以来审计他生成的这个plan"
+    },
+    {
+      "start": 131.58,
+      "end": 133.26,
+      "text": "而不是让他直接执行"
+    },
+    {
+      "start": 133.26,
+      "end": 137.26,
+      "text": "因为直接执行的话他可能会派生出非常多的subagents"
+    },
+    {
+      "start": 137.76,
+      "end": 141.26,
+      "text": "从而比较浪费token好这里他输出了workflow plan"
+    },
+    {
+      "start": 141.26,
+      "end": 145.24,
+      "text": "在这里还提到识别到这是已经验证过的模式"
+    },
+    {
+      "start": 145.24,
+      "end": 148.68,
+      "text": "然后我们看一下他生成的这个workflow的流程图"
+    },
+    {
+      "start": 148.68,
+      "end": 152.62,
+      "text": "第一步他会先获取仓库中的50个issues"
+    },
+    {
+      "start": 152.62,
+      "end": 156.42,
+      "text": "当确认抓取成功之后他才会调用这个workflow"
+    },
+    {
+      "start": 156.42,
+      "end": 160.94,
+      "text": "在workflow的这个pipeline这里包括issues然后分析还有验证"
+    },
+    {
+      "start": 160.94,
+      "end": 164.24,
+      "text": "在分析阶段每个issue会派一个agent"
+    },
+    {
+      "start": 164.24,
+      "end": 166.9,
+      "text": "这些agent的数量会小于等于50"
+    },
+    {
+      "start": 167.44,
+      "end": 170.18,
+      "text": "在验证这里每个issue也会分配一个agent"
+    },
+    {
+      "start": 170.18,
+      "end": 172.84,
+      "text": "在最后合成这里只需要一个agent"
+    },
+    {
+      "start": 173.48,
+      "end": 178.08,
+      "text": "在下面这里他给出了这个workflow js脚本的完整代码"
+    },
+    {
+      "start": 178.08,
+      "end": 180.7,
+      "text": "然后我们就可以对这个代码进行审查"
+    },
+    {
+      "start": 180.7,
+      "end": 183.42,
+      "text": "如果我们感觉没有问题就可以让他来执行"
+    },
+    {
+      "start": 183.98,
+      "end": 186.7,
+      "text": "在阶段这里我们就可以看到这三个阶段"
+    },
+    {
+      "start": 186.7,
+      "end": 188.86,
+      "text": "包括分析验证还有合成报告"
+    },
+    {
+      "start": 189.48,
+      "end": 192.08,
+      "text": "在这里是他给出的这几个优先级信号"
+    },
+    {
+      "start": 192.08,
+      "end": 195.14,
+      "text": "包括崩溃数据流失作为最高优先级"
+    },
+    {
+      "start": 195.14,
+      "end": 198.12,
+      "text": "在这里还提到为什么验证阶段不可省"
+    },
+    {
+      "start": 198.74,
+      "end": 203.68,
+      "text": "在最后这里就给出了运行前需要锁定两个会改变结果的决策"
+    },
+    {
+      "start": 203.68,
+      "end": 205.62,
+      "text": "包括高优先级怎么排序"
+    },
+    {
+      "start": 205.62,
+      "end": 209.2,
+      "text": "在这里我们就可以按照他的提示直接选第一项"
+    },
+    {
+      "start": 209.2,
+      "end": 212.7,
+      "text": "在分析深度方面我们也可以按照他的提示来选"
+    },
+    {
+      "start": 212.7,
+      "end": 214.68,
+      "text": "这里我们就默认选择第一项"
+    },
+    {
+      "start": 214.68,
+      "end": 216.48,
+      "text": "但我们感觉这些没有问题之后"
+    },
+    {
+      "start": 216.48,
+      "end": 218.28,
+      "text": "我们就可以直接按提交"
+    },
+    {
+      "start": 218.28,
+      "end": 221.76,
+      "text": "让他来运行刚才生成的这个工作流"
+    },
+    {
+      "start": 221.76,
+      "end": 224.2,
+      "text": "在这里他就提示workflow已经启动"
+    },
+    {
+      "start": 224.2,
+      "end": 226.28,
+      "text": "而且这里输出了这三个阶段"
+    },
+    {
+      "start": 226.28,
+      "end": 229.48,
+      "text": "我们就可以看到他一共派生了几十个agents"
+    },
+    {
+      "start": 230.2,
+      "end": 231.7,
+      "text": "同时并发九个agents"
+    },
+    {
+      "start": 232.28,
+      "end": 237.26,
+      "text": "下面我们还可以让cloudcode在执行dynamic workflow脚本之前"
+    },
+    {
+      "start": 237.8,
+      "end": 239.5,
+      "text": "展示更加详细的信息"
+    },
+    {
+      "start": 239.5,
+      "end": 242.16,
+      "text": "在任务这里还是和刚才一样的任务"
+    },
+    {
+      "start": 242.16,
+      "end": 244.58,
+      "text": "在下面这里我们要求他在运行之前"
+    },
+    {
+      "start": 244.58,
+      "end": 246.92,
+      "text": "先展示workflow的执行阶段"
+    },
+    {
+      "start": 246.92,
+      "end": 249.32,
+      "text": "每个阶段预计使用多少agents"
+    },
+    {
+      "start": 249.32,
+      "end": 251.4,
+      "text": "会检查哪些文件或目录"
+    },
+    {
+      "start": 251.4,
+      "end": 254.24,
+      "text": "每个阶段使用什么模型停止条件是什么"
+    },
+    {
+      "start": 254.24,
+      "end": 256.06,
+      "text": "最终验收标准是什么"
+    },
+    {
+      "start": 256.06,
+      "end": 258.96,
+      "text": "并告诉他在批准之前不要开始执行"
+    },
+    {
+      "start": 258.96,
+      "end": 260.5,
+      "text": "然后我们直接运行"
+    },
+    {
+      "start": 260.5,
+      "end": 264.94,
+      "text": "这样的话我们就可以看到更加详细的workflow的信息"
+    },
+    {
+      "start": 265.5,
+      "end": 268.36,
+      "text": "这里他就提示他已经设计好了这个workflow"
+    },
+    {
+      "start": 269,
+      "end": 271.84,
+      "text": "然后我们看一下我们要求他输出的这些内容"
+    },
+    {
+      "start": 271.84,
+      "end": 273.76,
+      "text": "包括这里的执行阶段"
+    },
+    {
+      "start": 273.76,
+      "end": 274.8,
+      "text": "还有agent的数量"
+    },
+    {
+      "start": 274.8,
+      "end": 275.48,
+      "text": "还有模型"
+    },
+    {
+      "start": 275.48,
+      "end": 276.42,
+      "text": "还有检查员"
+    },
+    {
+      "start": 276.42,
+      "end": 280.66,
+      "text": "第一阶段就是拉取最近50个open issues的全两元数据"
+    },
+    {
+      "start": 280.66,
+      "end": 283.32,
+      "text": "在第一阶段是不需要使用agent的"
+    },
+    {
+      "start": 283.32,
+      "end": 284.9,
+      "text": "所以这里数量是0"
+    },
+    {
+      "start": 284.9,
+      "end": 288.06,
+      "text": "然后第二阶段就是每个assus的分析"
+    },
+    {
+      "start": 288.06,
+      "end": 289.5,
+      "text": "这里是agent的数量"
+    },
+    {
+      "start": 289.5,
+      "end": 291.08,
+      "text": "然后模型是ops模型"
+    },
+    {
+      "start": 291.08,
+      "end": 293.92,
+      "text": "然后第三阶段就是通过对抗分析"
+    },
+    {
+      "start": 293.92,
+      "end": 297.08,
+      "text": "判断这些assus是否修复是否重复等等"
+    },
+    {
+      "start": 297.72,
+      "end": 299.42,
+      "text": "在agent的数量这里也是50"
+    },
+    {
+      "start": 299.42,
+      "end": 301.56,
+      "text": "在模型这里还是ops模型"
+    },
+    {
+      "start": 301.56,
+      "end": 303.22,
+      "text": "然后第4阶段就是对"
+    },
+    {
+      "start": 300,
+      "end": 307.94,
+      "text": "由于上面产出的这些数据进行整理 并且合成最终的报告 在agent的数量这里是1 模型这里是ops"
+    },
+    {
+      "start": 308.5,
+      "end": 313.44,
+      "text": "然后这里还给出了第五阶段 然后这里给出了这些agent的数量的合计"
+    },
+    {
+      "start": 313.44,
+      "end": 321.62,
+      "text": "他给出了并发上线大概是10到14个 相近的话 在每一阶段他都使用ops模型 因为这个模型非常昂贵"
+    },
+    {
+      "start": 321.62,
+      "end": 327.82,
+      "text": "然后我们可以让他将第二阶段 第三阶段所用到的模型都改成更加便宜的模型"
+    },
+    {
+      "start": 327.82,
+      "end": 335.92,
+      "text": "比如说我们直接用提示词让他修改 将第二阶段和第三阶段的模型改成sunit模型 或者hyku模型 然后直接运行"
+    },
+    {
+      "start": 335.92,
+      "end": 339.82,
+      "text": "然后紧接着他就为我们生成了这些组合建议"
+    },
+    {
+      "start": 339.82,
+      "end": 343.7,
+      "text": "第一个建议就是第二阶段和第三阶段都用sunit的模型"
+    },
+    {
+      "start": 343.7,
+      "end": 352.06,
+      "text": "然后第二个建议就是用hyku来分析 用sunit来验证 也就是第二阶段用hyku 第三阶段用sunit模型"
+    },
+    {
+      "start": 352.06,
+      "end": 362.68,
+      "text": "然后第三个选项就是两阶段都用hyku 在这里我们就选择第二项他给出的这个组合 也就是用hyku分析 用sunit验证 我们直接选中"
+    },
+    {
+      "start": 363.26,
+      "end": 366.74,
+      "text": "cloudcode就非常智能的帮我们设计了这些选项"
+    },
+    {
+      "start": 366.74,
+      "end": 370.84,
+      "text": "然后这里就输出了第二阶段使用hyku 第三阶段使用sunit"
+    },
+    {
+      "start": 370.84,
+      "end": 379.86,
+      "text": "在这个表格中就是这几个阶段所用到的模型 然后我们就可以根据他的提示按这个跑 让他来启动这个workflow 我们直接运行"
+    },
+    {
+      "start": 380.46,
+      "end": 388.92,
+      "text": "然后我们就可以看到在这个阶段他用的都是hyku模型 然后我们再切到下一个阶段 在这个阶段他用的就是sunit模型"
+    },
+    {
+      "start": 389.54,
+      "end": 396.64,
+      "text": "相近的话 我们就可以指定他在每个阶段所用到的模型是什么 这样的话就可以更加节省我们的token"
+    },
+    {
+      "start": 396.64,
+      "end": 407.18,
+      "text": "好 下面我们继续测试 这一次我们可以让他来调用mcp 比如说这一次让他调用codegraph这个项目 让他对一个开源项目的仓库进行分析"
+    },
+    {
+      "start": 407.18,
+      "end": 418.04,
+      "text": "因为codegraph这个项目他是支持mcp的 所以我们就可以让cloudcode通过codegraph的mcp 在dynamicworkflows中使用codegraph"
+    },
+    {
+      "start": 418.04,
+      "end": 425.32,
+      "text": "下面我们就可以看一下我出的这个任务 要求他使用dynamicworkflow分析仓库中潜在的bug"
+    },
+    {
+      "start": 425.32,
+      "end": 435.38,
+      "text": "这里告诉他了总预算为200万token 要求使用codegraphmcp做代码导航 并且要求重点关注这些模块 可能存在的bug"
+    },
+    {
+      "start": 435.38,
+      "end": 441.66,
+      "text": "输出格式是简洁的markdown报告 并且要求他在完整执行之前 先展示workflow plan"
+    },
+    {
+      "start": 441.66,
+      "end": 449.48,
+      "text": "在这里我们就给他了一个开源项目的仓库链接 也就是这个为opencloud开发的记忆系统的这个仓库"
+    },
+    {
+      "start": 449.48,
+      "end": 455.9,
+      "text": "然后我们就可以直接运行 先让cloudcode根据我们的任务 先生成workflow plan"
+    },
+    {
+      "start": 455.9,
+      "end": 461.42,
+      "text": "在这个任务中 我们设置了这个token的预算 还明确了 让他调用codegraphmcp"
+    },
+    {
+      "start": 461.42,
+      "end": 469.5,
+      "text": "好 这里cloudcode就输出了这个workflow plan 在这里就是需要检查的这些代码文件 然后这里给出了五个阶段"
+    },
+    {
+      "start": 469.5,
+      "end": 480.68,
+      "text": "然后在这里他给出了这几个选项 在这里我们就可以选择第一项 然后他提示这个最终报告应该怎么办 然后我们这里就选择输出并且保存"
+    },
+    {
+      "start": 481.2,
+      "end": 489.42,
+      "text": "然后就直接提交cloudcode就会启用这个workflow 这里这个workflow正在运行 然后我们就可以来具体看一下"
+    },
+    {
+      "start": 489.42,
+      "end": 498.08,
+      "text": "这是第一阶段 然后我们可以进入一个agent进行查看 进入之后 我们就可以看到他这里调用了codegraphmcp"
+    },
+    {
+      "start": 498.08,
+      "end": 504,
+      "text": "然后我们还可以查看其他的agent 可以看到这里他都调用了codegraphmcp"
+    },
+    {
+      "start": 504,
+      "end": 514.46,
+      "text": "而且在这里我们还可以看到他们调用的工具的数量 相见的话 我们就实现了在dynamicworkflow中 让这些agent来调用mcp"
+    },
+    {
+      "start": 514.46,
+      "end": 524.68,
+      "text": "就可以发挥出dynamicworkflow更强大的潜力 好 下面我们可以继续测试 我们甚至可以在dynamicworkflow中调用codexcri"
+    },
+    {
+      "start": 524.68,
+      "end": 534.04,
+      "text": "执行代码审查任务 我们可以看一下我输入的这个任务 让他用dynamicworkflow对这个开源项目 也就是opencloud记忆插件"
+    },
+    {
+      "start": 534.04,
+      "end": 543.08,
+      "text": "做止读交叉验证review 目标就是找潜在bug不修改代码 要求启动三个review 包括调用codexcri的review"
+    },
+    {
+      "start": 543.08,
+      "end": 551.36,
+      "text": "第二个review就是使用ops模型进行独立审查的review 第三个就是使用sunet模型进行独立审查的review"
+    },
+    {
+      "start": 551.36,
+      "end": 560.64,
+      "text": "要求就是codexcri只启动一次 单一review不可用 就标记不可用 不能假装在执行 只做文件和代码证据的问题"
+    },
+    {
+      "start": 560.64,
+      "end": 564.72,
+      "text": "最后这里就是要求他输出的这些内容 然后我们直接运行"
+    },
+    {
+      "start": 564.72,
+      "end": 571.34,
+      "text": "好 这里提示这个工作流正在运行 下面我们就可以查看一下 在第一阶段这里有三个agent"
+    },
+    {
+      "start": 571.34,
+      "end": 579.62,
+      "text": "第一个是调用codex的 第二个是调用了ops模型 第三个是调用了sunet模型 然后我们就可以进入第一个进行查看"
+    },
+    {
+      "start": 579.62,
+      "end": 585.58,
+      "text": "进入之后 在命令这里 他正在调用codex命令 对这个项目进行审查"
+    },
+    {
+      "start": 585.58,
+      "end": 591,
+      "text": "他是通过sunet模型来调用的codexcri执行的审查任务"
+    },
+    {
+      "start": 591,
+      "end": 593.96,
+      "text": "在这里我们还可以看到他们所消耗的token"
+    },
+    {
+      "start": 593.96,
+      "end": 597.7,
+      "text": "这个ops模型与sunet模型 他们消耗的token已经搭"
+    },
+    {
+      "start": 600,
+      "end": 605.32,
+      "text": "达到了100多k 然后这个调用codexcli的agent 他只消耗了20k token"
+    },
+    {
+      "start": 605.32,
+      "end": 611.74,
+      "text": "这里还会显示他调用了三个工具 也就是刚才我们查看的 他调用的这三个工具"
+    },
+    {
+      "start": 612.3,
+      "end": 619.78,
+      "text": "相见的话 我们就成功在dynamic workflow中 引入了codexcli也参与代码的review"
+    },
+    {
+      "start": 619.78,
+      "end": 624.16,
+      "text": "从而不单单只依靠cloud系列模型对代码进行review"
+    },
+    {
+      "start": 624.16,
+      "end": 628.14,
+      "text": "因为codex他对代码的review能力也是非常强的"
+    },
+    {
+      "start": 628.14,
+      "end": 633.54,
+      "text": "很多cloud无法发现的潜在bug 用codex反而能发现"
+    },
+    {
+      "start": 633.54,
+      "end": 637.6,
+      "text": "好 在这里他输出了这个交叉验证的review报告"
+    },
+    {
+      "start": 637.6,
+      "end": 641.58,
+      "text": "在这里就是最终确认的这些bug 一共有5个bug"
+    },
+    {
+      "start": 641.58,
+      "end": 646.66,
+      "text": "这里是对这些bug的详细描述 在最后这里他就给出了这些修复建议"
+    },
+    {
+      "start": 646.66,
+      "end": 651.84,
+      "text": "像这样的话 我们就完成了在dynamic workflow中 调用codexcli"
+    },
+    {
+      "start": 651.84,
+      "end": 656.48,
+      "text": "以及ops模型 还有三枚的模型 对我们的开源项目做了review"
+    },
+    {
+      "start": 656.48,
+      "end": 663.84,
+      "text": "并且成功发现了这5个潜在的bug 当我们下次还需要使用这个工作流的时候"
+    },
+    {
+      "start": 663.84,
+      "end": 669.28,
+      "text": "我们就可以继续附用刚才cloudcode来生成的这个workflow的这个脚本"
+    },
+    {
+      "start": 669.28,
+      "end": 674.08,
+      "text": "然后我们还可以在vs code中看一下这个脚本是如何调用codex的"
+    },
+    {
+      "start": 674.08,
+      "end": 680.32,
+      "text": "在这里我们就可以看到他创建了一个agent 用这个agent来调用codexcli"
+    },
+    {
+      "start": 680.32,
+      "end": 683.24,
+      "text": "驱动这个agent的模型是sunet的模型"
+    },
+    {
+      "start": 683.24,
+      "end": 687.8,
+      "text": "像这样的话 下次我们就可以直接在cloudcode中来附用这个脚本"
+    },
+    {
+      "start": 687.8,
+      "end": 690.9,
+      "text": "对其他项目进行交叉验证的review"
+    },
+    {
+      "start": 691.48,
+      "end": 695.48,
+      "text": "这是我们测试的在dynamic workflow中调用codexcli"
+    },
+    {
+      "start": 695.48,
+      "end": 701.64,
+      "text": "而且我们还可以在dynamic workflow中调用更多工具 从而让cloudcode更加强大"
+    },
+    {
+      "start": 701.64,
+      "end": 707.24,
+      "text": "好 本期视频就做到这里 欢迎大家点赞关注和转发 谢谢大家观看"
+    }
+  ],
+  "detected_lang": "en",
+  "translate_lang": "zh",
+  "has_translation": true
+}

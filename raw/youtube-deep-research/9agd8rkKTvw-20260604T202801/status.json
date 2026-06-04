@@ -1,0 +1,103 @@
+{
+  "id": "e1552e60-7513-4e34-b3ab-c058d47a1f73",
+  "youtube_url": "https://www.youtube.com/watch?v=9agd8rkKTvw",
+  "video_id": null,
+  "status": "completed",
+  "audio_url": null,
+  "r2_key": null,
+  "model_used": "vertex:gemini-3.1-pro-preview",
+  "summary": "本期视频深入讲解了 Claude Code 中 Dynamic Workflow 的高级用法与实战技巧。作者演示了如何通过特定关键词激活该功能，并通过分析开源项目 issues、自定义各阶段 AI 模型（Opus/Sonnet/Haiku）来优化 Token 消耗。此外，视频还重点展示了如何在动态工作流中集成 MCP（如 codegraph）以及调用外部工具（如 CodeX CLI）进行代码交叉审查，极大提升了代码分析与 Bug 排查的效率，展现了 Dynamic Workflow 的强大潜力。",
+  "key_points": [
+    "Claude Code 激活 Dynamic Workflow 的新关键词及基础操作演示",
+    "通过先生成 Workflow Plan 并审查执行阶段，有效控制 Agent 派生以节省 Token",
+    "自定义工作流各阶段的 AI 模型（如混用 Haiku 和 Sonnet），实现成本与性能的平衡",
+    "在 Dynamic Workflow 中成功调用 MCP（如 codegraph）进行深度的代码导航与分析",
+    "结合 CodeX CLI 与不同大模型进行代码交叉验证 Review，精准发现潜在 Bug 并复用脚本"
+  ],
+  "titles": [
+    "Claude Code 进阶教程：Dynamic Workflow 高级玩法，省 Token 又高效！",
+    "AI 程序员必看！如何在 Claude 动态工作流中调用 MCP 与 CodeX 查 Bug",
+    "压榨 Claude 极限：Dynamic Workflow 结合多模型交叉 Review 代码实战"
+  ],
+  "description": "想知道如何将 Claude Code 的 Dynamic Workflow 发挥到极致吗？本期视频为你带来保姆级的高级用法教程！我们将实战演示如何通过生成 Workflow Plan 审计 Agent 行为，巧妙搭配 Opus、Sonnet 和 Haiku 模型来大幅节省 Token 成本。更硬核的是，视频详细讲解了如何在动态工作流中接入 MCP（codegraph）进行代码导航，以及调用 CodeX CLI 进行多模型交叉代码审查，轻松揪出隐藏 Bug。无论你是 AI 开发者还是效率极客，这些实战技巧都不容错过！点赞破千解锁更多高级教程，快来抄作业吧！",
+  "tags": "Claude Code, Dynamic Workflow, AI代码审查, MCP集成, 大模型应用, 编程效率工具",
+  "clip_suggestions": [
+    {
+      "start": "00:00:46",
+      "end": "00:02:21",
+      "reason": "介绍了最新版激活 Dynamic Workflow 的关键词，并演示了如何要求先展示 plan 以节省 token 的核心技巧。"
+    },
+    {
+      "start": "00:03:52",
+      "end": "00:05:21",
+      "reason": "详细展示了如何让 AI 输出工作流的执行阶段、Agent 数量及模型配置，是控制成本的关键步骤。"
+    },
+    {
+      "start": "00:05:21",
+      "end": "00:06:36",
+      "reason": "实战演示如何将昂贵的 Opus 模型替换为 Haiku 和 Sonnet 的组合，极具实用价值的省钱技巧。"
+    },
+    {
+      "start": "00:06:36",
+      "end": "00:08:44",
+      "reason": "高阶玩法演示，展示了如何在动态工作流中接入 MCP 工具进行代码导航和 Bug 分析，拓展了 AI 的能力边界。"
+    },
+    {
+      "start": "00:08:44",
+      "end": "00:10:33",
+      "reason": "硬核实战，演示了调用外部工具 CodeX CLI 与多个大模型同时进行代码审查，发现潜在 Bug 的全过程。"
+    },
+    {
+      "start": "00:10:46",
+      "end": "00:11:47",
+      "reason": "展示了如何在 VS Code 中查看生成的 JS 脚本以便后续复用，总结了工具集成的强大潜力。"
+    }
+  ],
+  "detected_lang": "en",
+  "translate_lang": "zh",
+  "tts_url": null,
+  "error": null,
+  "created_at": "2026-06-04 20:28:12",
+  "updated_at": "2026-06-04 20:31:00",
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_sec": 0,
+      "r2_key": "audio/9agd8rkKTvw_chunk_000.mp4",
+      "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/9agd8rkKTvw_chunk_000.mp4",
+      "status": "done",
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/chunk/0",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/chunk/0?translated=1"
+    },
+    {
+      "chunk_index": 1,
+      "start_sec": 300,
+      "r2_key": "audio/9agd8rkKTvw_chunk_001.mp4",
+      "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/9agd8rkKTvw_chunk_001.mp4",
+      "status": "done",
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/chunk/1",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/chunk/1?translated=1"
+    },
+    {
+      "chunk_index": 2,
+      "start_sec": 600,
+      "r2_key": "audio/9agd8rkKTvw_chunk_002.mp4",
+      "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/9agd8rkKTvw_chunk_002.mp4",
+      "status": "done",
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/chunk/2",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/chunk/2?translated=1"
+    }
+  ],
+  "files": {
+    "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript",
+    "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=txt",
+    "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=srt",
+    "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=vtt",
+    "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=csv",
+    "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=md",
+    "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?translated=1",
+    "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=srt&translated=1",
+    "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=vtt&translated=1",
+    "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/e1552e60-7513-4e34-b3ab-c058d47a1f73/transcript?format=txt&translated=1"
+  }
+}
