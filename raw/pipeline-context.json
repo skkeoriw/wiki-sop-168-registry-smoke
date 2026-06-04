@@ -13,10 +13,34 @@
     "meta_file": "raw/youtube-metadata/96jN2OCOfLs.json"
   },
   "stage_b": {
+    "run_id": "direct-notebooklm-research-1780541895",
+    "start_time": "2026-06-04T02:58:15Z",
+    "end_time": "2026-06-04T02:59:28Z",
+    "duration_s": 73,
+    "status": "success",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 0,
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=96jN2OCOfLs&t=90s"
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/Andrej-Karpathy-从氛围编程到代理工程的技术简报.md"
+    ],
+    "generated_files": [
+      {
+        "type": "report",
+        "path": "/tmp/notebooklm_processor/1780541956_report-1780541951.md"
+      }
+    ],
     "source_metadata": {
+      "video_id": "96jN2OCOfLs",
       "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan",
+      "author": "Sequoia Capital",
+      "published_at": "2026-04-29T15:21:18Z",
       "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
-      "author": "Sequoia Capital"
+      "thumbnail": "https://i.ytimg.com/vi/96jN2OCOfLs/hqdefault.jpg",
+      "source_type": "youtube"
     }
   }
 }
