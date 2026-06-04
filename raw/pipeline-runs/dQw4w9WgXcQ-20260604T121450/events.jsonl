@@ -7,3 +7,5 @@
 {"ts": "2026-06-04T12:16:12Z", "event": "node_done", "pipeline_id": "dQw4w9WgXcQ-20260604T121450", "node_id": "notebooklm-research", "run_id": "direct-notebooklm-research-1780575299", "status": "done", "error": ""}
 {"ts": "2026-06-04T12:17:16Z", "event": "node_done", "pipeline_id": "dQw4w9WgXcQ-20260604T121450", "node_id": "youtube-deep-research", "run_id": "direct-youtube-deep-research-1780575299", "status": "done", "error": ""}
 {"ts": "2026-06-04T12:33:55Z", "event": "node_done", "pipeline_id": "dQw4w9WgXcQ-20260604T121450", "node_id": "wiki-build", "run_id": "direct-wiki-build-1780575373", "status": "done", "error": ""}
+{"ts": "2026-06-04T12:33:57Z", "event": "node_running", "pipeline_id": "dQw4w9WgXcQ-20260604T121450", "node_id": "tg-notify", "run_id": "direct-tg-notify-1780576437", "status": "running", "error": ""}
+{"ts": "2026-06-04T12:33:58Z", "event": "node_running", "pipeline_id": "dQw4w9WgXcQ-20260604T121450", "node_id": "tg-notify", "run_id": "direct-wiki-build-1780575373", "status": "running", "error": ""}
