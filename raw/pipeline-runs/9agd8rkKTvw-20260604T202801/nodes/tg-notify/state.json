@@ -1,0 +1,27 @@
+{
+  "pipeline_id": "9agd8rkKTvw-20260604T202801",
+  "node_id": "tg-notify",
+  "run_id": "direct-wiki-build-1780604949",
+  "status": "running",
+  "mode": "blocking",
+  "needs": [
+    "wiki-build"
+  ],
+  "started_at": "2026-06-04T20:42:18Z",
+  "finished_at": "",
+  "executor": {
+    "type": "skill",
+    "skill": "sop-tg-notify",
+    "webhook_route": "sop-tg-notify"
+  },
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "note": "final summary stage"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T20:42:19Z"
+}
