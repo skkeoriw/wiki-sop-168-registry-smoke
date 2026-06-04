@@ -1,0 +1,25 @@
+{
+  "pipeline_id": "96jN2OCOfLs-20260604T025807",
+  "node_id": "youtube-deep-research",
+  "run_id": "direct-youtube-deep-research-1780541895",
+  "status": "running",
+  "mode": "sidecar",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-04T02:58:15Z",
+  "finished_at": "",
+  "inputs": {
+    "source_url": "youtube-fetch.outputs.source_url"
+  },
+  "outputs": {
+    "analysis_file": "raw/youtube-deep-research/{pipeline_id}/analysis.md",
+    "transcript_file": "raw/youtube-deep-research/{pipeline_id}/transcript.txt"
+  },
+  "optional_inputs": {},
+  "extra": {
+    "started_by": "youtube-fetch"
+  },
+  "error": "",
+  "updated_at": "2026-06-04T02:58:16Z"
+}
