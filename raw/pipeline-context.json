@@ -1,5 +1,22 @@
 {
   "source_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s",
   "source_type": "youtube",
-  "pipeline_id": "rBUfD_wvbhw-20260604T083329"
+  "pipeline_id": "rBUfD_wvbhw-20260604T083329",
+  "stage_b_fetch": {
+    "run_id": "direct-1780562012",
+    "video_id": "rBUfD_wvbhw",
+    "title": "🚀Hermes Agent高级玩法之三大隐藏技能全公开！Ollama云端免费模型+Open WebUI美化界面+主副模型省Token配置，稳定性碾压小龙虾，一键部署免费云端模型完整教程，小白3分钟上手",
+    "author": "AI超元域",
+    "published_at": "2026-04-21T14:51:56Z",
+    "youtube_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw",
+    "thumbnail": "https://i.ytimg.com/vi/rBUfD_wvbhw/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/rBUfD_wvbhw.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "🚀Hermes Agent高级玩法之三大隐藏技能全公开！Ollama云端免费模型+Open WebUI美化界面+主副模型省Token配置，稳定性碾压小龙虾，一键部署免费云端模型完整教程，小白3分钟上手",
+      "youtube_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw",
+      "author": "AI超元域"
+    }
+  }
 }
