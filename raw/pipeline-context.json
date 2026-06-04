@@ -1,5 +1,22 @@
 {
   "source_url": "https://www.youtube.com/watch?v=9agd8rkKTvw",
   "source_type": "youtube",
-  "pipeline_id": "9agd8rkKTvw-20260604T202801"
+  "pipeline_id": "9agd8rkKTvw-20260604T202801",
+  "stage_b_fetch": {
+    "run_id": "direct-1780604884",
+    "video_id": "9agd8rkKTvw",
+    "title": "🚀生产力爆表！Claude Code Dynamic Workflows高级用法！调用CodeGraph MCP、调用Codex让Agent更强大！改写Harness新形态！指挥无数个智能体高效工作！",
+    "author": "AI超元域",
+    "published_at": "2026-06-04T15:44:20Z",
+    "youtube_url": "https://www.youtube.com/watch?v=9agd8rkKTvw",
+    "thumbnail": "https://i.ytimg.com/vi/9agd8rkKTvw/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/9agd8rkKTvw.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "🚀生产力爆表！Claude Code Dynamic Workflows高级用法！调用CodeGraph MCP、调用Codex让Agent更强大！改写Harness新形态！指挥无数个智能体高效工作！",
+      "youtube_url": "https://www.youtube.com/watch?v=9agd8rkKTvw",
+      "author": "AI超元域"
+    }
+  }
 }
