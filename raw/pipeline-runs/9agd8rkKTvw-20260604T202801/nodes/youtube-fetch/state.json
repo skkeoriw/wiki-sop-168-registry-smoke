@@ -1,0 +1,23 @@
+{
+  "pipeline_id": "9agd8rkKTvw-20260604T202801",
+  "node_id": "youtube-fetch",
+  "run_id": "direct-1780604884",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [],
+  "started_at": "2026-06-04T20:28:05Z",
+  "finished_at": "2026-06-04T20:28:08Z",
+  "executor": {
+    "type": "skill",
+    "skill": "sop-youtube-fetch",
+    "webhook_route": "sop-youtube-fetch"
+  },
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {},
+  "error": "",
+  "updated_at": "2026-06-04T20:28:08Z"
+}

@@ -1,0 +1,72 @@
+{
+  "pipeline_id": "9agd8rkKTvw-20260604T202801",
+  "node_id": "youtube-fetch",
+  "run_id": "direct-1780604884",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [],
+  "started_at": "2026-06-04T20:28:05Z",
+  "finished_at": "2026-06-04T20:28:08Z",
+  "inputs": {
+    "source_url": "context.source_url"
+  },
+  "outputs": {
+    "source_url": "context.source_url",
+    "metadata_file": "raw/youtube-metadata/{pipeline_id}.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "skill",
+    "skill": "sop-youtube-fetch",
+    "webhook_route": "sop-youtube-fetch"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "context.source_url",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=9agd8rkKTvw"
+  },
+  "declared_outputs": {
+    "source_url": {
+      "from": "context.source_url",
+      "type": "string"
+    },
+    "metadata_file": {
+      "path": "raw/youtube-metadata/{pipeline_id}.json",
+      "type": "file"
+    }
+  },
+  "actual_outputs": {
+    "source_url": "https://www.youtube.com/watch?v=9agd8rkKTvw",
+    "metadata_file": [
+      "raw/youtube-metadata/9agd8rkKTvw.json"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "99f22c804ee6d23d",
+      "producer": "youtube-fetch",
+      "output": "metadata_file",
+      "type": "file",
+      "format": "json",
+      "path": "raw/youtube-metadata/9agd8rkKTvw.json",
+      "title": "9agd8rkKTvw.json",
+      "size": 565,
+      "mime_type": "application/json",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {},
+  "error": "",
+  "updated_at": "2026-06-04T20:28:08Z"
+}
