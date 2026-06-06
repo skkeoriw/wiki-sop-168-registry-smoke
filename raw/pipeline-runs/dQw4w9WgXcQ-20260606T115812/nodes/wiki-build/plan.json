@@ -1,0 +1,999 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260606T115812",
+  "run_id": "direct-wiki-build-1780747163",
+  "selected_sources": [
+    {
+      "title": "关于坚定承诺与情感忠诚的深度简报：以《Never Gonna Give You Up》为核心分析",
+      "slug": "关于坚定承诺与情感忠诚的深度简报-以Never-Gonna-Give-You-Up为核心分析"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [
+    {
+      "name": "行为承诺",
+      "slug": "行为承诺",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告中强调了“行为准则”和“承诺”。"
+    },
+    {
+      "name": "长期忠诚",
+      "slug": "长期忠诚",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告的核心主题之一，贯穿全文。"
+    },
+    {
+      "name": "认知一致性",
+      "slug": "认知一致性",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告中提到“长期关系的积累与认知一致性”。"
+    },
+    {
+      "name": "关系管理",
+      "slug": "关系管理",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告内容涉及如何管理和维护关系。"
+    },
+    {
+      "name": "永恒的行为准则",
+      "slug": "永恒的行为准则",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告提到“以永恒的行为准则为保障”。"
+    },
+    {
+      "name": "关系契约",
+      "slug": "关系契约",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“强调了关系中的契约感”。"
+    },
+    {
+      "name": "心理共鸣",
+      "slug": "心理共鸣",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“指出了一种深层的心理共鸣”。"
+    },
+    {
+      "name": "行为标准",
+      "slug": "行为标准",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“确立了一套排他性的行为标准”。"
+    },
+    {
+      "name": "关系持续性",
+      "slug": "关系持续性",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“永不放弃：保持关系的持续性”。"
+    },
+    {
+      "name": "拒绝背叛",
+      "slug": "拒绝背叛",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“永不离弃：拒绝背叛与逃避”。"
+    },
+    {
+      "name": "拒绝逃避",
+      "slug": "拒绝逃避",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“永不离弃：拒绝背叛与逃避”。"
+    },
+    {
+      "name": "减少情感伤害",
+      "slug": "减少情感伤害",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“永不使其哭泣：减少情感伤害”。"
+    },
+    {
+      "name": "拒绝终结连接",
+      "slug": "拒绝终结连接",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“永不言别：拒绝终结连接”。"
+    },
+    {
+      "name": "维护诚实",
+      "slug": "维护诚实",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“永不谎言相欺：维护诚实的基础”。"
+    },
+    {
+      "name": "成熟关系",
+      "slug": "成熟关系",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“在成熟的关系中”。"
+    },
+    {
+      "name": "深层心理共鸣",
+      "slug": "深层心理共鸣",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“深层的心理共鸣”。"
+    },
+    {
+      "name": "内在认知",
+      "slug": "内在认知",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“内在对于关系的性质和走向有着清晰的认知”。"
+    },
+    {
+      "name": "行动洞察",
+      "slug": "行动洞察",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到了“基于文本的洞察与结论”和“行动洞察”。"
+    },
+    {
+      "name": "行为底线",
+      "slug": "行为底线",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“明确行为底线”。"
+    },
+    {
+      "name": "不作为清单",
+      "slug": "不作为清单",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“建立明确的‘不作为’清单”。"
+    },
+    {
+      "name": "沟通延迟",
+      "slug": "沟通延迟",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“克服沟通延迟”。"
+    },
+    {
+      "name": "表达障碍",
+      "slug": "表达障碍",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“表达障碍”。"
+    },
+    {
+      "name": "长期价值",
+      "slug": "长期价值",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提到“认可长期价值”。"
+    },
+    {
+      "name": "核心原则",
+      "slug": "核心原则",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到了“核心原则”。"
+    },
+    {
+      "name": "心理防御",
+      "slug": "心理防御",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“心理防御（羞涩）”。"
+    },
+    {
+      "name": "战略资产",
+      "slug": "战略资产",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“长期相处所形成的‘默契’和‘规则’是短期互动无法替代的战略资产”。"
+    },
+    {
+      "name": "正面强化",
+      "slug": "正面强化",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“持续的正面强化有助于消除对方的怀疑”。"
+    },
+    {
+      "name": "负面行为",
+      "slug": "负面行为",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“对负面行为的绝对排除”。"
+    },
+    {
+      "name": "外在确认",
+      "slug": "外在确认",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到将“内在的知晓”转化为“外在的确认”。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "never-gonna-give-you-up.md",
+      "reason": "已存在实体列表",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "rick-astley.md",
+      "reason": "虽然未直接提及，但《Never Gonna Give You Up》是其代表作，与歌曲紧密关联。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感承诺",
+      "slug": "情感承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感承诺.md",
+      "reason": "报告的核心主题之一，贯穿全文。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感忠诚",
+      "slug": "情感忠诚",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感忠诚.md",
+      "reason": "报告的核心主题之一，贯穿全文。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为准则",
+      "slug": "行为准则",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "行为准则.md",
+      "reason": "报告中提出的“六个从不”构成了一套行为准则。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性",
+      "slug": "排他性",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "排他性关系.md",
+      "reason": "报告中提到“排他性的行为标准”和“排他性关系”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "完全承诺",
+      "slug": "全面承诺",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "全面承诺.md",
+      "reason": "报告中明确定义为“完全的投入”（Full Commitment），与“全面承诺”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为边界",
+      "slug": "明确的行为边界",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "明确的行为边界.md",
+      "reason": "报告中提到“建立明确的行为边界”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "共同历史",
+      "slug": "共同历史",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "共同历史.md",
+      "reason": "报告中提到“对共同历史的认可”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感框架",
+      "slug": "情感框架",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "情感框架.md",
+      "reason": "报告中提到“构建一个稳固且可预测的情感框架”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "时间维度",
+      "slug": "时间维度",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "时间维度.md",
+      "reason": "报告中强调了“双方相处的时间维度”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "默契",
+      "slug": "关系的默契",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "关系的默契.md",
+      "reason": "报告中提到“默契的产生”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "规则",
+      "slug": "共有规则",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "共有规则.md",
+      "reason": "报告中提到双方对“规则”有共同认知。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "博弈",
+      "slug": "博弈与参与",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "博弈与参与.md",
+      "reason": "报告中提到双方对“博弈”有共同认知。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明度.md",
+      "reason": "报告的核心主题之一，贯穿全文。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通",
+      "slug": "主动沟通",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "主动沟通.md",
+      "reason": "报告强调了“主动的沟通”是弥合鸿沟的关键工具。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沉默",
+      "slug": "主动打破沉默",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "主动打破沉默.md",
+      "reason": "报告中提到叙述者表达了“打破沉默的强烈意图”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "理解",
+      "slug": "理解",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "理解.md",
+      "reason": "报告中提到“让你理解”和“告诉你我的感受”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "感受",
+      "slug": "情感表达",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "情感表达.md",
+      "reason": "报告中提到“告诉你我的感受”，与情感表达相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任",
+      "slug": "信任",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "信任.md",
+      "reason": "报告中提到“维持可靠性与信任”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "可靠性",
+      "slug": "绝对的可靠性",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "绝对的可靠性.md",
+      "reason": "报告中提到“维持可靠性与信任”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "安全感",
+      "slug": "情感安全感",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "情感安全感.md",
+      "reason": "报告中提到“建立安全感的基石”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "一致性",
+      "slug": "一致性",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "一致性.md",
+      "reason": "报告中提到“展示了言行一致的重要性”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "永不放弃",
+      "slug": "永不放弃",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "永不放弃.md",
+      "reason": "报告中列出的“六个从不”之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "永不令其失望",
+      "slug": "不让对方失望",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "不让对方失望.md",
+      "reason": "报告中列出的“六个从不”之一，与“永不令其失望”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "永不离弃",
+      "slug": "不离弃",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "不离弃.md",
+      "reason": "报告中列出的“六个从不”之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "永不使其哭泣",
+      "slug": "永不让你哭泣",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "永不让你哭泣.md",
+      "reason": "报告中列出的“六个从不”之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "永不言别",
+      "slug": "不告别",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "不告别.md",
+      "reason": "报告中列出的“六个从不”之一，与“永不言别”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "永不谎言相欺",
+      "slug": "永不撒谎伤害你",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "永不撒谎伤害你.md",
+      "reason": "报告中列出的“六个从不”之一，与“永不谎言相欺”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "羞涩",
+      "slug": "羞怯",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "羞怯.md",
+      "reason": "报告中提到“由于羞涩（too shy to say it）”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "任何其他男性",
+      "slug": "其他任何人",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "其他任何人.md",
+      "reason": "报告中提到“任何其他男性”（any other guy），与“其他任何人”概念相近。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期关系",
+      "slug": "长期相互了解",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "长期相互了解.md",
+      "reason": "报告强调了“长期关系的积累与认知一致性”，与“长期相互了解”高度相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行动指南",
+      "slug": "行动指南",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "行动指南.md",
+      "reason": "报告总结为“关于建立、维护和巩固深度人类连接的行动指南”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "承诺机制",
+      "slug": "承诺机制",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "承诺机制.md",
+      "reason": "报告的核心内容围绕承诺展开，可以归类为承诺机制。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "文本分析",
+      "slug": "文本分析",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "文本分析.md",
+      "reason": "报告本身就是基于文本内容进行的分析。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感表达",
+      "slug": "情感表达",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "情感表达.md",
+      "reason": "报告分析了文本中的“情感表达”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "表达障碍",
+      "slug": "沟通障碍",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "沟通障碍.md",
+      "reason": "报告中提到“表达障碍”，与“沟通障碍”语义相近。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "内在知晓",
+      "slug": "潜在默契",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "潜在默契.md",
+      "reason": "报告中提到“内在对于关系的性质和走向有着清晰的认知”，与“潜在默契”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "深度人类连接",
+      "slug": "深层情感联系",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "深层情感联系.md",
+      "reason": "报告总结为“关于建立、维护和巩固深度人类连接”，与“深层情感联系”高度相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "诚实",
+      "slug": "不撒谎",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "不撒谎.md",
+      "reason": "报告强调“以诚实为基础”，与“不撒谎”是核心要素。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "核心观点",
+      "slug": "核心观点",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "核心观点.md",
+      "reason": "报告中明确提到了“核心观点”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感纽带",
+      "slug": "情感纽带",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "情感纽带.md",
+      "reason": "报告的核心内容是关于情感的，与情感纽带高度相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "忠诚度",
+      "slug": "忠诚度",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "忠诚度.md",
+      "reason": "报告的核心主题之一，贯穿全文。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "关系承诺",
+      "slug": "关系承诺",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "关系承诺.md",
+      "reason": "报告的核心主题之一，贯穿全文。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明化",
+      "slug": "情感透明化",
+      "action": "merge",
+      "importance_score": 1.0,
+      "merge_target": "情感透明化.md",
+      "reason": "报告的核心主题之一，贯穿全文。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任建立",
+      "slug": "信任建立",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "信任建立.md",
+      "reason": "报告中提到“维持可靠性与信任”，信任是建立的基础。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "基础",
+      "slug": "基石",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "基石.md",
+      "reason": "报告中提到“维护诚实的基础”和“安全感的基石”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "内心痛苦",
+      "slug": "内心隐痛",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "内心隐痛.md",
+      "reason": "报告中提到“尽管内心痛苦（heart's been aching）”，与“内心隐痛”语义一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "弥合鸿沟",
+      "slug": "弥合沟通裂痕",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "弥合沟通裂痕.md",
+      "reason": "报告中提到“弥合‘由于羞涩而不敢表达’这一鸿沟”，与“弥合沟通裂痕”语义相近。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "工具",
+      "slug": "工具",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "外部工具.md",
+      "reason": "报告中提到“主动的沟通是...关键工具”。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "心理洞察",
+      "slug": "心理状态洞察",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "心理状态洞察.md",
+      "reason": "报告深入分析了文本中的心理层面，与“心理状态洞察”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "僵局",
+      "slug": "沟通僵局",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "沟通僵局.md",
+      "reason": "报告中提到“主动打破僵局”，与“沟通僵局”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "时间见证",
+      "slug": "时间见证",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告提到“以时间为见证”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "互动深度",
+      "slug": "互动深度",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“定义了互动的深度”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "责任感",
+      "slug": "责任感",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“追求的是一种高度的责任感”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "关系性质",
+      "slug": "关系性质",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“对于关系的性质和走向有着清晰的认知”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "走向",
+      "slug": "走向",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“对于关系的性质和走向有着清晰的认知”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "清晰认知",
+      "slug": "清晰认知",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“有着清晰的认知”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "投入",
+      "slug": "投入",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“完全的投入”（Full Commitment）。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "表象之下",
+      "slug": "表象之下",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“真实的意图往往被隐藏在表象之下”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "模糊性",
+      "slug": "模糊性",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“消除关系中的模糊性”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "共识性",
+      "slug": "共识性",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“基于一种共识性的‘规则’”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "肤浅交往",
+      "slug": "肤浅交往",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“超越了肤浅的交往”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "心理防御",
+      "slug": "心理防御",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“心理防御（羞涩）”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "进展",
+      "slug": "进展",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“可能阻碍进展”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "表面沉默",
+      "slug": "表面沉默",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“尽管表面可能沉默”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "关系性质",
+      "slug": "关系性质",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“对于关系的性质和走向有着清晰的认知”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "走向",
+      "slug": "走向",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“对于关系的性质和走向有着清晰的认知”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "绝对排除",
+      "slug": "绝对排除",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“对负面行为的绝对排除”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "战略资产",
+      "slug": "战略资产",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“是短期互动无法替代的战略资产”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "高频重复",
+      "slug": "高频重复",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“叙述者通过高频重复的承诺”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "正面强化",
+      "slug": "正面强化",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“持续的正面强化有助于消除对方的怀疑”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "怀疑",
+      "slug": "怀疑",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提到“有助于消除对方的怀疑”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "盲目",
+      "slug": "盲目",
+      "action": "new",
+      "importance_score": 0.7,
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    }
+  ],
+  "estimated_llm_calls": 31,
+  "actual_llm_calls": 1,
+  "prompt_tokens": 8461,
+  "completion_tokens": 8000,
+  "generated_pages": [],
+  "failed_pages": [],
+  "status": "running",
+  "updated_at": "2026-06-06T11:59:51Z"
+}
