@@ -7,6 +7,24 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-168-registry-smoke",
+    "commit": "28024b0",
+    "commit_message": "chore: stage-c event [run:direct-wiki-build-1780773129]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-wiki-build-1780773129.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/context.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/events.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/nodes/wiki-build.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/nodes/wiki-build/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/nodes/wiki-build/input.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/nodes/wiki-build/output.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/nodes/wiki-build/state.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260606T191102/run.json"
+    ],
+    "finished_at": "2026-06-06T19:14:01Z",
+    "error": ""
   }
 }
