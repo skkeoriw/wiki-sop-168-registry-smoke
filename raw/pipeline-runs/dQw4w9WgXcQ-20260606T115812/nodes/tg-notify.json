@@ -2,16 +2,16 @@
   "pipeline_id": "dQw4w9WgXcQ-20260606T115812",
   "node_id": "tg-notify",
   "run_id": "direct-wiki-build-1780747163",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "wiki-build"
   ],
   "started_at": "2026-06-06T12:02:59Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-06T12:03:02Z",
+  "duration_s": 219,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "index": "wiki-build.outputs.index"
   },
@@ -41,16 +41,36 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "telegram_message": [
+      "logs/pipeline-runs/pipe-direct-wiki-build-1780747163.json"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "5a8699491ae92c3d",
+      "producer": "tg-notify",
+      "output": "telegram_message",
+      "type": "file",
+      "format": "json",
+      "path": "logs/pipeline-runs/pipe-direct-wiki-build-1780747163.json",
+      "title": "pipe-direct-wiki-build-1780747163.json",
+      "size": 4834,
+      "mime_type": "application/json",
+      "tags": [],
+      "metadata": {},
+      "resolution": "recorded"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "note": "final summary stage"
+    "duration_s": 219,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-06T12:03:00Z"
+  "updated_at": "2026-06-06T12:03:02Z"
 }

@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "5a8699491ae92c3d",
+    "producer": "tg-notify",
+    "output": "telegram_message",
+    "type": "file",
+    "format": "json",
+    "path": "logs/pipeline-runs/pipe-direct-wiki-build-1780747163.json",
+    "title": "pipe-direct-wiki-build-1780747163.json",
+    "size": 4834,
+    "mime_type": "application/json",
+    "tags": [],
+    "metadata": {},
+    "resolution": "recorded"
+  }
+]
