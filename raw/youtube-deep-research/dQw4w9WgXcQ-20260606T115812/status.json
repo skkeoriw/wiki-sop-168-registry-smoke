@@ -1,0 +1,70 @@
+{
+  "id": "9ae8d4a1-835d-4003-8846-6159b0190e0f",
+  "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  "video_id": null,
+  "status": "completed",
+  "audio_url": null,
+  "r2_key": null,
+  "model_used": "vertex:gemini-3.1-pro-preview",
+  "summary": "这是一首经典的80年代流行爱情歌曲（同时也是著名网络迷因“瑞克摇”的出处）。歌词以第一人称视角，向心爱的人表达了坚定不移的爱意与承诺。演唱者强调自己与众不同，绝不会像其他人那样轻言放弃。整首歌围绕着“永远不会放弃你、不会让你沮丧、不会抛弃你、不会让你哭泣”的核心誓言展开，展现了两人之间长久以来的深厚情感羁绊与默契，传递出真挚、热烈且充满安全感的爱情观。",
+  "key_points": [
+    "坚定不移的爱情承诺与强烈的责任感",
+    "拒绝伤害、欺骗和抛弃伴侣的真挚誓言",
+    "两人之间长久以来的深厚默契与情感羁绊",
+    "鼓励伴侣勇敢面对内心，打破羞涩表达爱意",
+    "极具感染力和洗脑效果的经典副歌旋律"
+  ],
+  "titles": [
+    "永不放弃的爱：解析经典神曲背后的深情告白",
+    "80年代流行金曲：这首歌为何能成为全网最火迷因？",
+    "句句都是承诺！带你感受最真挚的爱情誓言"
+  ],
+  "description": "欢迎收看本期视频！今天我们将一起重温这首风靡全球的80年代经典流行金曲（也是互联网著名的“瑞克摇”神曲）。视频完整呈现了这首歌曲的动人歌词，字里行间充满了对爱情的坚定承诺。演唱者用最真诚的态度，向心爱的人发誓“永远不会放弃你，永远不会让你伤心流泪，永远不会用谎言伤害你”。无论你是来怀旧这首复古流行舞曲的动感旋律，还是来感受歌词中那份纯粹、热烈且充满安全感的爱意，这段视频都不容错过。快来一起跟着节奏，体验这份永不褪色的音乐魅力吧！喜欢的话请点赞、收藏并分享给那个你“永不放弃”的人！",
+  "tags": "经典音乐, 流行金曲, 爱情歌曲, 瑞克摇, 歌词解析, 情感共鸣",
+  "clip_suggestions": [
+    {
+      "start": "00:00:42",
+      "end": "00:00:59",
+      "reason": "这是全曲最经典、最具辨识度的第一段副歌，集中表达了“永不放弃”的核心誓言，非常适合作为短视频高潮切片进行病毒式传播。"
+    },
+    {
+      "start": "00:01:00",
+      "end": "00:01:41",
+      "reason": "这一段从两人深厚的情感默契（主歌）自然过渡到经典副歌，情感层层递进，适合展示歌曲的完整叙事结构和情感共鸣。"
+    },
+    {
+      "start": "00:02:01",
+      "end": "00:02:57",
+      "reason": "包含了极具节奏感的“Give you up”桥段（Bridge）并推向最终的高潮副歌，旋律洗脑且富有动感，适合制作音乐混剪或卡点视频。"
+    }
+  ],
+  "detected_lang": "en",
+  "translate_lang": "zh",
+  "tts_url": null,
+  "error": null,
+  "created_at": "2026-06-06 11:58:22",
+  "updated_at": "2026-06-06 11:59:44",
+  "chunks": [
+    {
+      "chunk_index": 0,
+      "start_sec": 0,
+      "r2_key": "audio/dQw4w9WgXcQ_chunk_000.mp4",
+      "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/dQw4w9WgXcQ_chunk_000.mp4",
+      "status": "done",
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/chunk/0",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/chunk/0?translated=1"
+    }
+  ],
+  "files": {
+    "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript",
+    "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=txt",
+    "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=srt",
+    "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=vtt",
+    "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=csv",
+    "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=md",
+    "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?translated=1",
+    "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=srt&translated=1",
+    "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=vtt&translated=1",
+    "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/9ae8d4a1-835d-4003-8846-6159b0190e0f/transcript?format=txt&translated=1"
+  }
+}
