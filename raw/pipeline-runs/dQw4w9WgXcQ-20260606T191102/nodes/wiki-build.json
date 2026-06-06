@@ -2,16 +2,16 @@
   "pipeline_id": "dQw4w9WgXcQ-20260606T191102",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780773129",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-06T19:12:09Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-06T19:13:59Z",
+  "duration_s": 110,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -40,7 +40,9 @@
     "reports": [
       "raw/notebooklm-analysis/Rick-Astley-Never-Gonna-Give-You-Up-深度简报.md"
     ],
-    "deep_research": []
+    "deep_research": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260606T191102/analysis.md"
+    ]
   },
   "declared_outputs": {
     "index": {
@@ -52,16 +54,143 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/情感保障.md",
+      "wiki/concepts/情感契约.md",
+      "wiki/concepts/情感安全网.md",
+      "wiki/concepts/情感完整性.md",
+      "wiki/concepts/核心逻辑.md",
+      "wiki/concepts/绝对忠诚.md",
+      "wiki/sources/rick-astley-never-gonna-give-you-up深度简报.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 12296,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "bfd6700d726bfa87",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/情感保障.md",
+      "title": "情感保障.md",
+      "size": 4394,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "1fe2afda542898e7",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/情感契约.md",
+      "title": "情感契约.md",
+      "size": 4270,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "78633093a091fb26",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/情感安全网.md",
+      "title": "情感安全网.md",
+      "size": 6165,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "3b25b3135532c37d",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/情感完整性.md",
+      "title": "情感完整性.md",
+      "size": 3759,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "0cc5495332959915",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/核心逻辑.md",
+      "title": "核心逻辑.md",
+      "size": 3708,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "d70bb8961082f7e0",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/绝对忠诚.md",
+      "title": "绝对忠诚.md",
+      "size": 3252,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "33901919d542c6a6",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/rick-astley-never-gonna-give-you-up深度简报.md",
+      "title": "rick-astley-never-gonna-give-you-up深度简报.md",
+      "size": 5437,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 110,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-06T19:12:09Z"
+  "updated_at": "2026-06-06T19:13:59Z"
 }

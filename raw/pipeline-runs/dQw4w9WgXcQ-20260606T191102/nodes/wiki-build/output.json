@@ -9,9 +9,22 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/情感保障.md",
+      "wiki/concepts/情感契约.md",
+      "wiki/concepts/情感安全网.md",
+      "wiki/concepts/情感完整性.md",
+      "wiki/concepts/核心逻辑.md",
+      "wiki/concepts/绝对忠诚.md",
+      "wiki/sources/rick-astley-never-gonna-give-you-up深度简报.md"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }
