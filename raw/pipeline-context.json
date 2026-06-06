@@ -47,5 +47,39 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780769831",
+    "start_time": "2026-06-06T18:17:11Z",
+    "end_time": "2026-06-06T18:19:34Z",
+    "duration_s": 142,
+    "llm_calls": 20,
+    "pages_created_total": 523,
+    "pages_new_this_run": 15,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/使之理解.md",
+      "wiki/concepts/关系透明度.md",
+      "wiki/concepts/双向认知.md",
+      "wiki/concepts/在场性.md",
+      "wiki/concepts/情感支持.md",
+      "wiki/concepts/情感支持系统.md",
+      "wiki/concepts/情感障碍.md",
+      "wiki/concepts/承诺契约.md",
+      "wiki/concepts/显性承诺.md",
+      "wiki/concepts/显性表达.md",
+      "wiki/concepts/沉默僵局.md",
+      "wiki/concepts/沟通的必要性.md",
+      "wiki/concepts/规则认知.md",
+      "wiki/concepts/透明沟通.md",
+      "wiki/sources/关于Never-Gonna-Give-You-Up核心内涵与情感承诺的简报.md"
+    ],
+    "sources": 10,
+    "entities": 18,
+    "concepts": 495,
+    "comparisons": 0,
+    "prompt_tokens": 26557,
+    "completion_tokens": 28789,
+    "status": "success"
   }
 }
