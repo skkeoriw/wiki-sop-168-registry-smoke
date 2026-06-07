@@ -47,5 +47,49 @@
     "output_files": [
       "raw/notebooklm-analysis/Rick-Astley---Never-Gonna-Give-You-Up-Official-Video-4K-Remaster-youtube-deep-research.md"
     ]
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780862293",
+    "start_time": "2026-06-07T19:58:13Z",
+    "end_time": "2026-06-07T20:01:13Z",
+    "duration_s": 180,
+    "llm_calls": 32,
+    "pages_created_total": 603,
+    "pages_new_this_run": 25,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/不欺骗.md",
+      "wiki/concepts/不背弃.md",
+      "wiki/concepts/互惠博弈.md",
+      "wiki/concepts/六不原则.md",
+      "wiki/concepts/叙述者.md",
+      "wiki/concepts/可靠性标准.md",
+      "wiki/concepts/可预测的情感环境.md",
+      "wiki/concepts/忠诚的维护者.md",
+      "wiki/concepts/情感透明度的追求.md",
+      "wiki/concepts/排他性的忠诚宣言.md",
+      "wiki/concepts/接收者.md",
+      "wiki/concepts/整体性的稳定.md",
+      "wiki/concepts/明确的规则.md",
+      "wiki/concepts/标准化行为准则.md",
+      "wiki/concepts/沟通诚实.md",
+      "wiki/concepts/深层情感连接.md",
+      "wiki/concepts/直接表达感受.md",
+      "wiki/concepts/稳定且持久的人际关系.md",
+      "wiki/concepts/绝对安全.md",
+      "wiki/concepts/绝对屏障.md",
+      "wiki/concepts/负面行为的绝对屏障.md",
+      "wiki/concepts/超越普通关系的可靠性标准.md",
+      "wiki/concepts/长期保障.md",
+      "wiki/concepts/长期的共同经历.md",
+      "wiki/sources/忠诚与持久承诺分析简报-人际关系中的核心准则研究.md"
+    ],
+    "sources": 14,
+    "entities": 18,
+    "concepts": 571,
+    "comparisons": 0,
+    "prompt_tokens": 40793,
+    "completion_tokens": 39883,
+    "status": "success"
   }
 }
