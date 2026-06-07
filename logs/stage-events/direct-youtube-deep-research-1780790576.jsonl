@@ -1,0 +1,2 @@
+{"ts": "2026-06-07T00:02:57Z", "event": "tg_notify_sent", "stage": "youtube-deep-research", "trigger": "start", "ok": true}
+{"ts": "2026-06-07T00:02:57Z", "event": "stage_start", "stage": "youtube-deep-research", "pipeline": "youtube-research-wiki"}
