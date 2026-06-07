@@ -1,0 +1,20 @@
+{
+  "declared_inputs": {
+    "reports": {
+      "from": "notebooklm-research.outputs.reports",
+      "required": true
+    }
+  },
+  "optional_inputs": {
+    "deep_research": {
+      "from": "youtube-deep-research.outputs.analysis_file",
+      "required": false
+    }
+  },
+  "resolved_inputs": {
+    "reports": [
+      "raw/notebooklm-analysis/情感承诺与持久关系分析简报-以-Never-Gonna-Give-You-Up.md"
+    ],
+    "deep_research": []
+  }
+}
