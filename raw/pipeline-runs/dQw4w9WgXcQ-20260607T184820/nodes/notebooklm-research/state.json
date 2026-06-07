@@ -1,0 +1,32 @@
+{
+  "pipeline_id": "dQw4w9WgXcQ-20260607T184820",
+  "node_id": "notebooklm-research",
+  "run_id": "direct-notebooklm-research-1780858108",
+  "status": "failed",
+  "mode": "blocking",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-07T18:48:28Z",
+  "finished_at": "2026-06-07T18:48:30Z",
+  "duration_s": 0,
+  "attempt": 2,
+  "progress": 0,
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-notebooklm-research",
+    "entry": "scripts/run_notebooklm_research.sh",
+    "webhook_route": "sop-notebooklm-research"
+  },
+  "validation": {
+    "status": "pending",
+    "missing_outputs": [],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "started_by": "youtube-fetch"
+  },
+  "error": "notebooklm_processor status=failed",
+  "updated_at": "2026-06-07T18:48:30Z"
+}

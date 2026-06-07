@@ -1,0 +1,4 @@
+{"ts": "2026-06-07T18:48:29Z", "event": "tg_notify_sent", "stage": "notebooklm-research", "trigger": "start", "ok": true}
+{"ts": "2026-06-07T18:48:29Z", "event": "stage_start", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-06-07T18:48:30Z", "event": "tg_notify_sent", "stage": "notebooklm-research", "trigger": "failed", "ok": true}
+{"ts": "2026-06-07T18:48:30Z", "event": "stage_failed", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki", "error": "notebooklm_processor status=failed"}

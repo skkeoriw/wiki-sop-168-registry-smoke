@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "enabled": true,
+    "required": false,
+    "status": "done",
+    "message_preview": "❌ Stage B 失败  [dQw4w9WgXcQ-20260607T184820]\n   🔬 NotebookLM 研究\n🎬 Rick Astley - Never Gonna Give You Up (Official Video) (4K R\n   错误：notebooklm_processor status=failed",
+    "sent_at": "2026-06-07T18:48:30Z",
+    "api_ok": true,
+    "error": ""
+  },
+  "git": {
+    "enabled": true,
+    "required": false,
+    "status": "pending"
+  }
+}

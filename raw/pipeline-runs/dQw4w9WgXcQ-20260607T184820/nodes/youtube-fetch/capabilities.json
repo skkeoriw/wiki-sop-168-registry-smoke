@@ -11,6 +11,26 @@
   "git": {
     "enabled": true,
     "required": false,
-    "status": "pending"
+    "status": "done",
+    "repository": "skkeoriw/wiki-sop-168-registry-smoke",
+    "commit": "cc85dc5",
+    "commit_message": "chore: stage-a event [run:direct-1780858103]",
+    "pushed": true,
+    "changed_files": [
+      "logs/stage-events/direct-1780858103.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/context.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/dag.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/events.jsonl",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/nodes/youtube-fetch.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/nodes/youtube-fetch/artifacts.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/nodes/youtube-fetch/capabilities.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/nodes/youtube-fetch/input.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/nodes/youtube-fetch/output.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/nodes/youtube-fetch/state.json",
+      "raw/pipeline-runs/dQw4w9WgXcQ-20260607T184820/run.json"
+    ],
+    "finished_at": "2026-06-07T18:48:28Z",
+    "error": ""
   }
 }
