@@ -5,9 +5,13 @@
       "type": "file"
     }
   },
-  "actual_outputs": {},
+  "actual_outputs": {
+    "telegram_message": [
+      "logs/pipeline-runs/pipe-direct-wiki-build-1780862293.json"
+    ]
+  },
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   }

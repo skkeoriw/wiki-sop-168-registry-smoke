@@ -2,7 +2,7 @@
   "pipeline_id": "dQw4w9WgXcQ-20260607T195703",
   "sop_id": "youtube-research-wiki",
   "repo": "skkeoriw/wiki-sop-168-registry-smoke",
-  "status": "running",
+  "status": "done",
   "source_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "source_type": "youtube",
   "nodes": {
@@ -10,10 +10,10 @@
     "notebooklm-research": "done",
     "youtube-deep-research": "done",
     "wiki-build": "done",
-    "tg-notify": "running",
+    "tg-notify": "done",
     "retry": "waiting"
   },
   "last_run_id": "direct-wiki-build-1780862293",
   "started_at": "2026-06-07T19:57:06Z",
-  "updated_at": "2026-06-07T20:01:18Z"
+  "updated_at": "2026-06-07T20:01:21Z"
 }
