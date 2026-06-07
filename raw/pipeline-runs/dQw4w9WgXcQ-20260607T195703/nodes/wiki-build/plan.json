@@ -1,0 +1,1031 @@
+{
+  "target_pages": 35,
+  "max_pages": 40,
+  "max_entities": 10,
+  "max_concepts": 29,
+  "min_importance_score": 0.65,
+  "pipeline_id": "dQw4w9WgXcQ-20260607T195703",
+  "run_id": "direct-wiki-build-1780862293",
+  "selected_sources": [
+    {
+      "title": "忠诚与持久承诺分析简报：人际关系中的核心准则研究",
+      "slug": "忠诚与持久承诺分析简报-人际关系中的核心准则研究"
+    }
+  ],
+  "selected_entities": [],
+  "selected_concepts": [
+    {
+      "name": "全面承诺",
+      "slug": "全面承诺",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告的核心概念，指代一种深度、排他性的情感投入。"
+    },
+    {
+      "name": "六不原则",
+      "slug": "六不原则",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "报告中提出的核心行为准则，用于确保关系的绝对安全。"
+    },
+    {
+      "name": "不欺骗",
+      "slug": "不欺骗",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "“六不”原则的核心否定性承诺之一，与“不撒谎伤害”相关。"
+    },
+    {
+      "name": "不背弃",
+      "slug": "不背弃",
+      "action": "new",
+      "importance_score": 0.9,
+      "merge_target": null,
+      "reason": "“六不”原则的核心否定性承诺之一，与“不告别”和“不奔波离去”相关。"
+    },
+    {
+      "name": "负面行为的绝对屏障",
+      "slug": "负面行为的绝对屏障",
+      "action": "new",
+      "importance_score": 0.85,
+      "merge_target": null,
+      "reason": "描述了承诺的核心逻辑，通过否定性承诺来构建安全感。"
+    },
+    {
+      "name": "稳定且持久的人际关系",
+      "slug": "稳定且持久的人际关系",
+      "action": "new",
+      "importance_score": 0.85,
+      "merge_target": null,
+      "reason": "报告研究的目标和结果。"
+    },
+    {
+      "name": "排他性的忠诚宣言",
+      "slug": "排他性的忠诚宣言",
+      "action": "new",
+      "importance_score": 0.85,
+      "merge_target": null,
+      "reason": "叙述者用来确立可靠性标准的手段。"
+    },
+    {
+      "name": "超越普通关系的可靠性标准",
+      "slug": "超越普通关系的可靠性标准",
+      "action": "new",
+      "importance_score": 0.85,
+      "merge_target": null,
+      "reason": "承诺所达到的高度。"
+    },
+    {
+      "name": "绝对安全",
+      "slug": "绝对安全",
+      "action": "new",
+      "importance_score": 0.85,
+      "merge_target": null,
+      "reason": "“六不”原则的目标。"
+    },
+    {
+      "name": "排他性的忠诚宣言",
+      "slug": "排他性的忠诚宣言",
+      "action": "new",
+      "importance_score": 0.85,
+      "merge_target": null,
+      "reason": "确立可靠性标准的手段。"
+    },
+    {
+      "name": "超越普通关系的可靠性标准",
+      "slug": "超越普通关系的可靠性标准",
+      "action": "new",
+      "importance_score": 0.85,
+      "merge_target": null,
+      "reason": "承诺所达到的高度。"
+    },
+    {
+      "name": "沟通诚实",
+      "slug": "沟通诚实",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "“六不”原则的一部分，指代不告别、不撒谎伤害的承诺。"
+    },
+    {
+      "name": "可靠性标准",
+      "slug": "可靠性标准",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提及的承诺所达到的水平。"
+    },
+    {
+      "name": "明确的规则",
+      "slug": "明确的规则",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "建立稳定关系的基础之一。"
+    },
+    {
+      "name": "长期的共同经历",
+      "slug": "长期的共同经历",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "建立稳定关系的基础之一，与“长期认知”和“长期共同经历”相关。"
+    },
+    {
+      "name": "情感透明度的追求",
+      "slug": "情感透明度的追求",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "建立稳定关系的基础之一，与“情感透明度”相关。"
+    },
+    {
+      "name": "标准化行为准则",
+      "slug": "标准化行为准则",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "指代“六不”原则，用于确保关系的绝对安全。"
+    },
+    {
+      "name": "直接表达感受",
+      "slug": "直接表达感受",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提出的克服沟通障碍的方法。"
+    },
+    {
+      "name": "深层情感连接",
+      "slug": "深层情感连接",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中提及的已存在于双方之间的连接。"
+    },
+    {
+      "name": "忠诚的维护者",
+      "slug": "忠诚的维护者",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "对叙述者的定义。"
+    },
+    {
+      "name": "长期保障",
+      "slug": "长期保障",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "叙述者主动提供的内容。"
+    },
+    {
+      "name": "整体性的稳定",
+      "slug": "整体性的稳定",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "“全面承诺”所追求的状态。"
+    },
+    {
+      "name": "叙述者",
+      "slug": "叙述者",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中对歌曲演唱者的称谓。"
+    },
+    {
+      "name": "接收者",
+      "slug": "接收者",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "报告中对歌曲听众的称谓。"
+    },
+    {
+      "name": "绝对屏障",
+      "slug": "绝对屏障",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "描述了对负面行为的处理方式。"
+    },
+    {
+      "name": "可预测的情感环境",
+      "slug": "可预测的情感环境",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "承诺所要构建的情感环境的特征。"
+    },
+    {
+      "name": "明确的规则",
+      "slug": "明确的规则",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "建立稳定关系的基础。"
+    },
+    {
+      "name": "长期的共同经历",
+      "slug": "长期的共同经历",
+      "action": "new",
+      "importance_score": 0.8,
+      "merge_target": null,
+      "reason": "建立稳定关系的基础。"
+    },
+    {
+      "name": "互惠博弈",
+      "slug": "互惠博弈",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "描述了关系中双方的互动模式，强调参与和理解动态性。"
+    }
+  ],
+  "selected_mindmaps": [],
+  "skipped_candidates": [
+    {
+      "name": "Rick Astley",
+      "slug": "rick-astley",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "rick-astley-never-gonna-give-you-up深度简报.md",
+      "reason": "Rick Astley 是歌曲《Never Gonna Give You Up》的演唱者，与报告内容直接相关。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "Never Gonna Give You Up",
+      "slug": "never-gonna-give-you-up",
+      "action": "merge",
+      "importance_score": 0.95,
+      "merge_target": "关于Never-Gonna-Give-You-Up核心内涵与情感承诺的简报.md",
+      "reason": "报告的核心分析对象是这首歌的歌词和内涵。",
+      "kind": "entitie",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "排他性",
+      "slug": "排他性",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "排他性.md",
+      "reason": "报告中多次强调的承诺特质，指代独一无二的对待。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "独特性",
+      "slug": "独特性",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "独特性.md",
+      "reason": "与排他性相关，强调承诺的不可替代性。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "长期认知",
+      "slug": "长期认知",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "长期认知.md",
+      "reason": "报告中提及的关系建立基础，指代对长期关系的理解和规划。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感支持",
+      "slug": "情感支持",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "情感支持.md",
+      "reason": "“六不”原则的一部分，指代不让对方失望、不使其流泪的承诺。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "情感透明度.md",
+      "reason": "报告强调的关系要素，指代直接表达感受以达成理解。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "沟通障碍",
+      "slug": "沟通障碍",
+      "action": "merge",
+      "importance_score": 0.75,
+      "merge_target": "沟通障碍.md",
+      "reason": "报告中提及需要克服的问题，如羞涩导致的情感滞后。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "规则",
+      "slug": "规则",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "规则.md",
+      "reason": "报告中强调的双方默认的行为准则，是关系稳定的基础。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感环境",
+      "slug": "情感环境",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "情感环境.md",
+      "reason": "报告中描述的承诺目标，旨在构建一个安全且可预测的空间。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任基石",
+      "slug": "信任基石",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "信任基石.md",
+      "reason": "报告中提及的承诺构建结果，是关系稳定的基础。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "羞涩",
+      "slug": "羞怯",
+      "action": "merge",
+      "importance_score": 0.7,
+      "merge_target": "羞怯.md",
+      "reason": "报告中提及导致情感滞后的原因。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任感",
+      "slug": "信任",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "信任.md",
+      "reason": "承诺的核心价值，通过反复重申来强化。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "安全感",
+      "slug": "安全感",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "安全感.md",
+      "reason": "承诺所要构建的情感环境。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感洞察力",
+      "slug": "情感洞察力",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "情感洞察力.md",
+      "reason": "叙述者具备的能力，能识别对方需求。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "渴望",
+      "slug": "渴望",
+      "action": "merge",
+      "importance_score": 0.75,
+      "merge_target": "渴望.md",
+      "reason": "接收者的状态。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "共同认知",
+      "slug": "共同的认知",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "共同的认知.md",
+      "reason": "“规则”的另一层含义，双方对互动的理解一致。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "主动姿态",
+      "slug": "主动姿态",
+      "action": "merge",
+      "importance_score": 0.75,
+      "merge_target": "主动姿态.md",
+      "reason": "叙述者在关系中的表现。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感博弈",
+      "slug": "情感博弈",
+      "action": "merge",
+      "importance_score": 0.75,
+      "merge_target": "情感博弈.md",
+      "reason": "报告中提及的双方在关系中的互动模式。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不放弃",
+      "slug": "不放弃",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "不放弃.md",
+      "reason": "“六不”原则的核心否定性承诺之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不让对方失望",
+      "slug": "不让对方失望",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "不让对方失望.md",
+      "reason": "“六不”原则的核心否定性承诺之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不使其流泪",
+      "slug": "不让对方哭泣",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "不让对方哭泣.md",
+      "reason": "“六不”原则的核心否定性承诺之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不告别",
+      "slug": "不告别",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "不告别.md",
+      "reason": "“六不”原则的核心否定性承诺之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不撒谎伤害",
+      "slug": "永不撒谎伤害你",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "永不撒谎伤害你.md",
+      "reason": "“六不”原则的核心否定性承诺之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "不奔波离弃",
+      "slug": "不奔波离去",
+      "action": "merge",
+      "importance_score": 0.9,
+      "merge_target": "不奔波离去.md",
+      "reason": "“六不”原则的核心否定性承诺之一，与“不放弃”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "消除误解",
+      "slug": "消除模糊性",
+      "action": "merge",
+      "importance_score": 0.75,
+      "merge_target": "消除模糊性.md",
+      "reason": "直接表达感受的目的之一。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "增强安全感",
+      "slug": "安全感",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "安全感.md",
+      "reason": "直接表达感受的目的之一，与“信任感”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "一致性",
+      "slug": "一致性",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "一致性.md",
+      "reason": "承诺的核心价值，通过持续展现来体现。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "核心逻辑",
+      "slug": "核心逻辑",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "核心逻辑.md",
+      "reason": "报告中分析的承诺建立方式。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "稀缺性",
+      "slug": "稀缺性",
+      "action": "merge",
+      "importance_level": 0.8,
+      "merge_target": "稀缺资源.md",
+      "reason": "报告中描述的承诺的特点。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "行为准则",
+      "slug": "行为准则",
+      "action": "merge",
+      "importance_score": 0.8,
+      "merge_target": "行为准则.md",
+      "reason": "报告中提及的标准化行为准则，与“规则”和“六不原则”相关。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "信任的基石",
+      "slug": "信任的基石",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "信任基石.md",
+      "reason": "承诺所构建的结果。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "稳定且持久",
+      "slug": "关系稳定",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "关系稳定.md",
+      "reason": "报告研究的目标和结果。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "情感透明度的追求",
+      "slug": "情感透明度",
+      "action": "merge",
+      "importance_score": 0.85,
+      "merge_target": "情感透明度.md",
+      "reason": "建立稳定关系的基础。",
+      "kind": "concept",
+      "skip_reason": "action_merge"
+    },
+    {
+      "name": "契约精神",
+      "slug": "契约精神",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "与“规则”相关，强调关系中的共识和预期。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "长期共同经历",
+      "slug": "长期共同经历",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "报告中提及的关系建立基础，与“长期认知”相关。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "理解的一致性",
+      "slug": "理解的一致性",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "报告中提及的沟通目标，通过直接表达感受来实现。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "高度自我约束",
+      "slug": "高度自我约束",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "描述了承诺的性质，是一种主动控制自身行为的表现。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "破坏性行为",
+      "slug": "破坏性行为",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "“六不”原则所否定的行为类型。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "互动的边界和预期",
+      "slug": "互动的边界和预期",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "“规则”所包含的内容。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "反复重申",
+      "slug": "反复重申",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "强化信任感和安全感的手段。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "主动控制自身行为",
+      "slug": "主动控制自身行为",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "描述了“高度自我约束”的含义。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "直接表达",
+      "slug": "直接表达",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "报告中提出的克服沟通障碍的方法，与“直接表达感受”相关。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "回溯共同经历",
+      "slug": "回溯共同经历",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "在面临挑战时强化连接的方法。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "持续展现",
+      "slug": "持续展现",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "体现“一致性”的方式。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "战略选择",
+      "slug": "战略选择",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "承诺的性质，而非情感冲动。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "自我约束",
+      "slug": "自我约束",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "承诺的内在要求。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "博弈",
+      "slug": "博弈",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "关系中双方的互动模式，与“互惠博弈”相关。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "直接表达",
+      "slug": "直接表达",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "克服沟通障碍的方法。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "理解的一致性",
+      "slug": "理解的一致性",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "直接表达感受的目的。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "高度自我约束",
+      "slug": "高度自我约束",
+      "action": "new",
+      "importance_score": 0.75,
+      "merge_target": null,
+      "reason": "承诺的性质。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "物理存在",
+      "slug": "物理存在",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "“六不”原则的一部分，指代不放弃、不离开的承诺。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "战略选择",
+      "slug": "战略选择",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "描述了承诺的性质，是一种有意识的、有约束力的决定。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "情感滞后",
+      "slug": "情感滞后",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提及的沟通障碍原因，与“羞涩”相关。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "失明状态",
+      "slug": "失明状态",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中描述的由于沟通障碍导致的状态，与“too blind to see”对应。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "核心论述",
+      "slug": "核心论述",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告分析的基础，指代Rick Astley在歌曲中的主要观点。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "结构与实施",
+      "slug": "结构与实施",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告分析的维度，指代全面承诺的构成和如何执行。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "偶然的情感冲动",
+      "slug": "偶然的情感冲动",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "与“战略选择”相对，指代非深思熟虑的情感驱动。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "动态性质",
+      "slug": "动态性质",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "描述了关系的状态，需要双方的理解和参与意愿。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "潜意识或直觉",
+      "slug": "潜意识或直觉",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告中提及的在关系中的作用。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "表面的沉默",
+      "slug": "表面的沉默",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "接收者因羞涩而表现出的状态。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "最终目标",
+      "slug": "最终目标",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "指代“全面的承诺”。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "短期或碎片化的互动",
+      "slug": "短期或碎片化的互动",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "与“全面承诺”相对。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "潜意识",
+      "slug": "潜意识",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "与“直觉”相关，在关系中的作用。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "直觉",
+      "slug": "直觉",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "与“潜意识”相关，在关系中的作用。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "主动提供",
+      "slug": "主动提供",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "描述了叙述者提供长期保障的方式。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "心路历程",
+      "slug": "心路历程",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "描述了接收者的内心变化。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "非深思熟虑的情感驱动",
+      "slug": "非深思熟虑的情感驱动",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "描述了“偶然的情感冲动”的含义。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "参与意愿",
+      "slug": "参与意愿",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "描述了双方对关系动态性质的理解和参与程度。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "强化连接",
+      "slug": "强化连接",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "回溯共同经历的目的。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "核心价值",
+      "slug": "核心价值",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "指代“一致性”在承诺中的重要性。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "参与其中",
+      "slug": "参与其中",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "叙述者对参与“博弈”的意愿表达。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "情感滞后",
+      "slug": "情感滞后",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "由于羞涩导致的情感表达延迟。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "失明",
+      "slug": "失明",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "由于沟通障碍导致的状态，与“too blind to see”对应。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "核心论述",
+      "slug": "核心论述",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "Rick Astley 在歌曲中的主要观点。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "结构与实施",
+      "slug": "结构与实施",
+      "action": "new",
+      "importance_score": 0.7,
+      "merge_target": null,
+      "reason": "报告分析的维度。",
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    },
+    {
+      "name": "偶然的情感冲动",
+      "slug": "偶然的情感冲动",
+      "action": "new",
+      "importance_score": 0.7,
+      "kind": "concept",
+      "skip_reason": "page_limit"
+    }
+  ],
+  "estimated_llm_calls": 31,
+  "actual_llm_calls": 2,
+  "prompt_tokens": 12277,
+  "completion_tokens": 9625,
+  "generated_pages": [
+    "wiki/sources/忠诚与持久承诺分析简报-人际关系中的核心准则研究.md"
+  ],
+  "failed_pages": [],
+  "status": "running",
+  "updated_at": "2026-06-07T19:58:37Z"
+}
