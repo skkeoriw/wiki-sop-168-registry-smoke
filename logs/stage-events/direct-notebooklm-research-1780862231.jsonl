@@ -1,0 +1,2 @@
+{"ts": "2026-06-07T19:57:11Z", "event": "tg_notify_sent", "stage": "notebooklm-research", "trigger": "start", "ok": true}
+{"ts": "2026-06-07T19:57:11Z", "event": "stage_start", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki"}
