@@ -1,0 +1,94 @@
+{
+  "pipeline_id": "dQw4w9WgXcQ-20260607T000249",
+  "node_id": "notebooklm-research",
+  "run_id": "direct-notebooklm-research-1780790576",
+  "status": "done",
+  "mode": "blocking",
+  "needs": [
+    "youtube-fetch"
+  ],
+  "started_at": "2026-06-07T00:02:56Z",
+  "finished_at": "2026-06-07T00:03:54Z",
+  "duration_s": 57,
+  "attempt": 2,
+  "progress": 100,
+  "inputs": {
+    "source_url": "youtube-fetch.outputs.source_url",
+    "metadata_file": "youtube-fetch.outputs.metadata_file"
+  },
+  "outputs": {
+    "reports": "raw/notebooklm-analysis/*.md",
+    "mindmaps": "raw/notebooklm-mindmaps/*.json"
+  },
+  "optional_inputs": {},
+  "executor": {
+    "type": "agent-skill",
+    "agent": "hermes",
+    "skill": "sop-notebooklm-research",
+    "entry": "scripts/run_notebooklm_research.sh",
+    "webhook_route": "sop-notebooklm-research"
+  },
+  "declared_inputs": {
+    "source_url": {
+      "from": "youtube-fetch.outputs.source_url",
+      "required": true
+    },
+    "metadata_file": {
+      "from": "youtube-fetch.outputs.metadata_file",
+      "required": true
+    }
+  },
+  "resolved_inputs": {
+    "source_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "metadata_file": [
+      "raw/youtube-metadata/dQw4w9WgXcQ.json"
+    ]
+  },
+  "declared_outputs": {
+    "reports": {
+      "path": "raw/notebooklm-analysis/*.md",
+      "type": "files"
+    },
+    "mindmaps": {
+      "path": "raw/notebooklm-mindmaps/*.json",
+      "type": "files"
+    }
+  },
+  "actual_outputs": {
+    "reports": [
+      "raw/notebooklm-analysis/情感承诺与持久关系分析简报-以-Never-Gonna-Give-You-Up.md"
+    ],
+    "mindmaps": []
+  },
+  "artifacts": [
+    {
+      "id": "cd0d5c2c158a68c1",
+      "producer": "notebooklm-research",
+      "output": "reports",
+      "type": "research.report",
+      "format": "markdown",
+      "path": "raw/notebooklm-analysis/情感承诺与持久关系分析简报-以-Never-Gonna-Give-You-Up.md",
+      "title": "情感承诺与持久关系分析简报-以-Never-Gonna-Give-You-Up.md",
+      "size": 4499,
+      "mime_type": "text/markdown",
+      "tags": [
+        "wiki-source"
+      ],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
+  "validation": {
+    "status": "warning",
+    "missing_outputs": [
+      "mindmaps"
+    ],
+    "unexpected_outputs": []
+  },
+  "extra": {
+    "duration_s": 57,
+    "progress": 100
+  },
+  "error": "",
+  "updated_at": "2026-06-07T00:03:54Z"
+}
