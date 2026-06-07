@@ -47,5 +47,42 @@
     },
     "chunks_total": 1,
     "chunks_done": 1
+  },
+  "stage_c": {
+    "run_id": "direct-wiki-build-1780790636",
+    "start_time": "2026-06-07T00:03:56Z",
+    "end_time": "2026-06-07T00:06:01Z",
+    "duration_s": 124,
+    "llm_calls": 20,
+    "pages_created_total": 578,
+    "pages_new_this_run": 18,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/内在的共识.md",
+      "wiki/concepts/回避.md",
+      "wiki/concepts/平等地位.md",
+      "wiki/concepts/引言分析.md",
+      "wiki/concepts/心理契合.md",
+      "wiki/concepts/情感策略.md",
+      "wiki/concepts/情感规则.md",
+      "wiki/concepts/打破沟通壁垒.md",
+      "wiki/concepts/承诺的定义化.md",
+      "wiki/concepts/揭示者角色.md",
+      "wiki/concepts/核心承诺清单.md",
+      "wiki/concepts/沟通需求.md",
+      "wiki/concepts/理解双向规则.md",
+      "wiki/concepts/稀缺资源.md",
+      "wiki/concepts/行为的一致性.md",
+      "wiki/concepts/认可长期积累的价值.md",
+      "wiki/concepts/语境解读.md",
+      "wiki/sources/情感承诺与持久关系分析简报-以Never-Gonna-Give-You-Up为核心.md"
+    ],
+    "sources": 13,
+    "entities": 18,
+    "concepts": 547,
+    "comparisons": 0,
+    "prompt_tokens": 27190,
+    "completion_tokens": 25696,
+    "status": "success"
   }
 }

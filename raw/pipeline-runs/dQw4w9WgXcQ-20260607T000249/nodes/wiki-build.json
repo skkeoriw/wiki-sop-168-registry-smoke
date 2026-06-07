@@ -2,16 +2,16 @@
   "pipeline_id": "dQw4w9WgXcQ-20260607T000249",
   "node_id": "wiki-build",
   "run_id": "direct-wiki-build-1780790636",
-  "status": "running",
+  "status": "done",
   "mode": "blocking",
   "needs": [
     "notebooklm-research"
   ],
   "started_at": "2026-06-07T00:03:56Z",
-  "finished_at": "",
-  "duration_s": 0,
+  "finished_at": "2026-06-07T00:06:03Z",
+  "duration_s": 127,
   "attempt": 2,
-  "progress": 0,
+  "progress": 100,
   "inputs": {
     "reports": "notebooklm-research.outputs.reports"
   },
@@ -40,7 +40,9 @@
     "reports": [
       "raw/notebooklm-analysis/情感承诺与持久关系分析简报-以-Never-Gonna-Give-You-Up.md"
     ],
-    "deep_research": []
+    "deep_research": [
+      "raw/youtube-deep-research/dQw4w9WgXcQ-20260607T000249/analysis.md"
+    ]
   },
   "declared_outputs": {
     "index": {
@@ -52,16 +54,308 @@
       "type": "files"
     }
   },
-  "actual_outputs": {},
-  "artifacts": [],
+  "actual_outputs": {
+    "index": [
+      "index.md"
+    ],
+    "pages": [
+      "wiki/concepts/内在的共识.md",
+      "wiki/concepts/回避.md",
+      "wiki/concepts/平等地位.md",
+      "wiki/concepts/引言分析.md",
+      "wiki/concepts/心理契合.md",
+      "wiki/concepts/情感策略.md",
+      "wiki/concepts/情感规则.md",
+      "wiki/concepts/打破沟通壁垒.md",
+      "wiki/concepts/承诺的定义化.md",
+      "wiki/concepts/揭示者角色.md",
+      "wiki/concepts/核心承诺清单.md",
+      "wiki/concepts/沟通需求.md",
+      "wiki/concepts/理解双向规则.md",
+      "wiki/concepts/稀缺资源.md",
+      "wiki/concepts/行为的一致性.md",
+      "wiki/concepts/认可长期积累的价值.md",
+      "wiki/concepts/语境解读.md",
+      "wiki/sources/情感承诺与持久关系分析简报-以Never-Gonna-Give-You-Up为核心.md"
+    ]
+  },
+  "artifacts": [
+    {
+      "id": "a909ab8f85846403",
+      "producer": "wiki-build",
+      "output": "index",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "index.md",
+      "title": "index.md",
+      "size": 12746,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "84074de141b42e79",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/内在的共识.md",
+      "title": "内在的共识.md",
+      "size": 3968,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "50888ddce1d124ce",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/回避.md",
+      "title": "回避.md",
+      "size": 5432,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "d28ad267dc653d98",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/平等地位.md",
+      "title": "平等地位.md",
+      "size": 4041,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "6d3352df9efc9b2b",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/引言分析.md",
+      "title": "引言分析.md",
+      "size": 6670,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "d55c7376389e99a6",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/心理契合.md",
+      "title": "心理契合.md",
+      "size": 4571,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "2f0f5ff185b2995e",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/情感策略.md",
+      "title": "情感策略.md",
+      "size": 4899,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "6a2c4f932a82e89d",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/情感规则.md",
+      "title": "情感规则.md",
+      "size": 4037,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "9aa2b40e35781734",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/打破沟通壁垒.md",
+      "title": "打破沟通壁垒.md",
+      "size": 4358,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "c4b830ff261c898a",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/承诺的定义化.md",
+      "title": "承诺的定义化.md",
+      "size": 3781,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "ef95e0b25ae941ce",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/揭示者角色.md",
+      "title": "揭示者角色.md",
+      "size": 3385,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "ce78e1e3d0a24e1d",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/核心承诺清单.md",
+      "title": "核心承诺清单.md",
+      "size": 4252,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "b31a75bd8d55424d",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/沟通需求.md",
+      "title": "沟通需求.md",
+      "size": 4105,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "068c102fc4af7569",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/理解双向规则.md",
+      "title": "理解双向规则.md",
+      "size": 4746,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "9cf8cfebe6f87b36",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/稀缺资源.md",
+      "title": "稀缺资源.md",
+      "size": 3790,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "add369467578c0b9",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/行为的一致性.md",
+      "title": "行为的一致性.md",
+      "size": 3609,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "9b605cd954bd5c14",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/认可长期积累的价值.md",
+      "title": "认可长期积累的价值.md",
+      "size": 4117,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "471a66c2189eacff",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/concepts/语境解读.md",
+      "title": "语境解读.md",
+      "size": 4747,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    },
+    {
+      "id": "8d42eb8d0fafc959",
+      "producer": "wiki-build",
+      "output": "pages",
+      "type": "wiki.page",
+      "format": "markdown",
+      "path": "wiki/sources/情感承诺与持久关系分析简报-以Never-Gonna-Give-You-Up为核心.md",
+      "title": "情感承诺与持久关系分析简报-以Never-Gonna-Give-You-Up为核心.md",
+      "size": 5647,
+      "mime_type": "text/markdown",
+      "tags": [],
+      "metadata": {},
+      "resolution": "context"
+    }
+  ],
   "validation": {
-    "status": "pending",
+    "status": "passed",
     "missing_outputs": [],
     "unexpected_outputs": []
   },
   "extra": {
-    "started_by": "notebooklm-research"
+    "duration_s": 127,
+    "progress": 100
   },
   "error": "",
-  "updated_at": "2026-06-07T00:03:56Z"
+  "updated_at": "2026-06-07T00:06:03Z"
 }
