@@ -35,7 +35,7 @@ bash <(curl -fsSL 'https://skill.vyibc.com/install-youtube-wiki.sh?ts=2026060112
 
 ```bash
 bash <(curl -fsSL https://skill.vyibc.com/youtube-wiki.sh) \
-  --endpoint=https://youtube-wiki-168.chxyka.ccwu.cc \
+  --endpoint=https://runtime-34-29-222-183.chxyka.ccwu.cc \
   --mode=trigger \
   --repo=skkeoriw/wiki-sop-168-registry-smoke \
   --url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
@@ -45,7 +45,7 @@ bash <(curl -fsSL https://skill.vyibc.com/youtube-wiki.sh) \
 
 ```bash
 bash <(curl -fsSL https://skill.vyibc.com/youtube-wiki.sh) \
-  --endpoint=https://youtube-wiki-168.chxyka.ccwu.cc \
+  --endpoint=https://runtime-34-29-222-183.chxyka.ccwu.cc \
   --mode=status \
   --repo=skkeoriw/wiki-sop-168-registry-smoke \
   --pipeline-id='<pipeline_id>'
@@ -55,7 +55,7 @@ bash <(curl -fsSL https://skill.vyibc.com/youtube-wiki.sh) \
 
 ```bash
 bash <(curl -fsSL https://skill.vyibc.com/youtube-wiki.sh) \
-  --endpoint=https://youtube-wiki-168.chxyka.ccwu.cc \
+  --endpoint=https://runtime-34-29-222-183.chxyka.ccwu.cc \
   --mode=status \
   --repo=skkeoriw/wiki-sop-168-registry-smoke \
   --pipeline-id='<pipeline_id>' \
@@ -67,7 +67,7 @@ bash <(curl -fsSL https://skill.vyibc.com/youtube-wiki.sh) \
 
 ```bash
 bash <(curl -fsSL https://skill.vyibc.com/youtube-wiki.sh) \
-  --endpoint=https://youtube-wiki-168.chxyka.ccwu.cc \
+  --endpoint=https://runtime-34-29-222-183.chxyka.ccwu.cc \
   --mode=list
 ```
 
