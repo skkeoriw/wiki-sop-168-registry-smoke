@@ -1,9 +1,9 @@
-instance_id: wiki-sop-168-registry-smoke
+instance_id: wiki-sop-instance-real-smoke
 sop_type: youtube-research-wiki
 repo: skkeoriw/wiki-sop-168-registry-smoke
-runtime_id: youtube-wiki-168
-channel_name: youtube-wiki-168
-channel_url: https://youtube-wiki-168.chxyka.ccwu.cc
-spi_base_url: https://youtube-wiki-168.chxyka.ccwu.cc/api/sop
+runtime_id: runtime-34-29-222-183
+channel_name: runtime-34-29-222-183
+channel_url: https://runtime-34-29-222-183.chxyka.ccwu.cc
+spi_base_url: https://runtime-34-29-222-183.chxyka.ccwu.cc/api/sop
 language: zh-CN
 stage_c_model: gemini-2.5-flash-lite
